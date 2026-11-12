@@ -1,0 +1,1942 @@
+[
+  {
+    "task_id": 0,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_001.png",
+    "degradation_description": "The image exhibits severe global contrast loss and saturation loss, where the overwhelming airlight and veiling strength cause depth-dependent fading and significant edge detail attenuation across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.3037109375,
+        "dists": 0.24113595485687256,
+        "psnr": 20.15875244140625,
+        "ssim": 0.7111486265029008
+      },
+      "ridcp": {
+        "lpips": 0.3212890625,
+        "dists": 0.1844921112060547,
+        "psnr": 20.046707153320312,
+        "ssim": 0.672911995638985
+      },
+      "dehazeformer": {
+        "lpips": 0.30126953125,
+        "dists": 0.22716349363327026,
+        "psnr": 20.763437271118164,
+        "ssim": 0.7178198353037746
+      },
+      "maxim": {
+        "lpips": 0.36572265625,
+        "dists": 0.31380873918533325,
+        "psnr": 15.160224914550781,
+        "ssim": 0.623909491561554
+      },
+      "diffplugin": {
+        "lpips": 0.3388671875,
+        "dists": 0.18921560049057007,
+        "psnr": 18.16928482055664,
+        "ssim": 0.44902613367923466
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      3,
+      1,
+      5,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 1,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_002.png",
+    "degradation_description": "The image exhibits severe global contrast loss and saturation loss, where the overwhelming strength of the airlight veil causes depth-dependent fading and significant edge detail attenuation across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.5,
+        "dists": 0.32896876335144043,
+        "psnr": 16.107866287231445,
+        "ssim": 0.5400949100113139
+      },
+      "ridcp": {
+        "lpips": 0.462890625,
+        "dists": 0.2681049108505249,
+        "psnr": 17.405736923217773,
+        "ssim": 0.5343144341440151
+      },
+      "dehazeformer": {
+        "lpips": 0.4892578125,
+        "dists": 0.2995615601539612,
+        "psnr": 17.71022605895996,
+        "ssim": 0.5604927550944891
+      },
+      "maxim": {
+        "lpips": 0.5556640625,
+        "dists": 0.4252597689628601,
+        "psnr": 14.126863479614258,
+        "ssim": 0.4849316430735855
+      },
+      "diffplugin": {
+        "lpips": 0.449951171875,
+        "dists": 0.264298677444458,
+        "psnr": 16.816730499267578,
+        "ssim": 0.36233804601578
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      4,
+      2,
+      1,
+      5,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 2,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_003.png",
+    "degradation_description": "The image exhibits severe global contrast loss and saturation loss, where the overwhelming strength of the airlight creates a uniform gray veil that causes depth-dependent fading and significantly attenuates edge details across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.338134765625,
+        "dists": 0.25849276781082153,
+        "psnr": 20.248462677001953,
+        "ssim": 0.6755916955708561
+      },
+      "ridcp": {
+        "lpips": 0.362548828125,
+        "dists": 0.21064776182174683,
+        "psnr": 19.22355842590332,
+        "ssim": 0.6314666742252606
+      },
+      "dehazeformer": {
+        "lpips": 0.33740234375,
+        "dists": 0.2487565279006958,
+        "psnr": 20.082164764404297,
+        "ssim": 0.6786048769371449
+      },
+      "maxim": {
+        "lpips": 0.39404296875,
+        "dists": 0.3337933421134949,
+        "psnr": 14.152235984802246,
+        "ssim": 0.5943151800211126
+      },
+      "diffplugin": {
+        "lpips": 0.3759765625,
+        "dists": 0.2192380428314209,
+        "psnr": 17.06169891357422,
+        "ssim": 0.40727285655851414
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      3,
+      1,
+      5,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 3,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_004.png",
+    "degradation_description": "The image exhibits severe global contrast loss and saturation loss, where the overwhelming airlight and veiling strength cause depth-dependent fading and significant edge detail attenuation across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.4052734375,
+        "dists": 0.3592214584350586,
+        "psnr": 16.576894760131836,
+        "ssim": 0.5912891041559433
+      },
+      "ridcp": {
+        "lpips": 0.35205078125,
+        "dists": 0.22760075330734253,
+        "psnr": 18.901782989501953,
+        "ssim": 0.6308428198311375
+      },
+      "dehazeformer": {
+        "lpips": 0.353759765625,
+        "dists": 0.2841527462005615,
+        "psnr": 19.70220375061035,
+        "ssim": 0.6603398248230308
+      },
+      "maxim": {
+        "lpips": 0.496826171875,
+        "dists": 0.43203890323638916,
+        "psnr": 10.662550926208496,
+        "ssim": 0.491486543117862
+      },
+      "diffplugin": {
+        "lpips": 0.39697265625,
+        "dists": 0.24227392673492432,
+        "psnr": 14.384575843811035,
+        "ssim": 0.37924059269530175
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      1,
+      2,
+      5,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 4,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_005.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the presence of strong airlight and veiling reduces the overall dynamic range and color vibrancy, resulting in a washed-out appearance across the entire frame.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.5888671875,
+        "dists": 0.3280183672904968,
+        "psnr": 18.09636878967285,
+        "ssim": 0.4707603862640769
+      },
+      "ridcp": {
+        "lpips": 0.66015625,
+        "dists": 0.328119695186615,
+        "psnr": 15.039397239685059,
+        "ssim": 0.3223031137252303
+      },
+      "dehazeformer": {
+        "lpips": 0.58251953125,
+        "dists": 0.3307560682296753,
+        "psnr": 16.84636116027832,
+        "ssim": 0.5257935570863921
+      },
+      "maxim": {
+        "lpips": 0.576171875,
+        "dists": 0.33051568269729614,
+        "psnr": 18.852542877197266,
+        "ssim": 0.5765901905461339
+      },
+      "diffplugin": {
+        "lpips": 0.55615234375,
+        "dists": 0.29504573345184326,
+        "psnr": 20.802677154541016,
+        "ssim": 0.48821872184241516
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 5,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_006.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the presence of strong airlight and veiling reduces the depth-dependent fading of distant elements and attenuates edge details across the entire frame.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.70849609375,
+        "dists": 0.3544834852218628,
+        "psnr": 16.375904083251953,
+        "ssim": 0.41678005317048683
+      },
+      "ridcp": {
+        "lpips": 0.7783203125,
+        "dists": 0.36406922340393066,
+        "psnr": 14.283258438110352,
+        "ssim": 0.2871831589041912
+      },
+      "dehazeformer": {
+        "lpips": 0.70751953125,
+        "dists": 0.3579707741737366,
+        "psnr": 15.746703147888184,
+        "ssim": 0.4666985584928327
+      },
+      "maxim": {
+        "lpips": 0.701171875,
+        "dists": 0.36648714542388916,
+        "psnr": 16.042844772338867,
+        "ssim": 0.523800871378146
+      },
+      "diffplugin": {
+        "lpips": 0.69384765625,
+        "dists": 0.3230147957801819,
+        "psnr": 18.711353302001953,
+        "ssim": 0.40238869477684763
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      5,
+      4,
+      3,
+      1
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 6,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_007.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the presence of strong airlight and veiling reduces the overall dynamic range and color vibrancy, resulting in a washed-out appearance across the entire frame.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.6015625,
+        "dists": 0.3104970455169678,
+        "psnr": 17.931821823120117,
+        "ssim": 0.5157050826349789
+      },
+      "ridcp": {
+        "lpips": 0.6279296875,
+        "dists": 0.3250594139099121,
+        "psnr": 15.01163387298584,
+        "ssim": 0.3654346093727925
+      },
+      "dehazeformer": {
+        "lpips": 0.60205078125,
+        "dists": 0.3120650053024292,
+        "psnr": 17.433753967285156,
+        "ssim": 0.5512501856518313
+      },
+      "maxim": {
+        "lpips": 0.5986328125,
+        "dists": 0.31184715032577515,
+        "psnr": 19.433794021606445,
+        "ssim": 0.604850889915295
+      },
+      "diffplugin": {
+        "lpips": 0.5810546875,
+        "dists": 0.29086607694625854,
+        "psnr": 21.3826961517334,
+        "ssim": 0.490699975328085
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 7,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_008.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, accompanied by strong airlight veiling that causes depth-dependent fading and attenuates edge details across the entire frame.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.57958984375,
+        "dists": 0.30167144536972046,
+        "psnr": 19.602100372314453,
+        "ssim": 0.5680867137671249
+      },
+      "ridcp": {
+        "lpips": 0.6552734375,
+        "dists": 0.3207920789718628,
+        "psnr": 15.179439544677734,
+        "ssim": 0.3962643191863449
+      },
+      "dehazeformer": {
+        "lpips": 0.5751953125,
+        "dists": 0.3031274080276489,
+        "psnr": 19.10165786743164,
+        "ssim": 0.6087222823647903
+      },
+      "maxim": {
+        "lpips": 0.56982421875,
+        "dists": 0.3079269528388977,
+        "psnr": 19.984975814819336,
+        "ssim": 0.6475536354224812
+      },
+      "diffplugin": {
+        "lpips": 0.55419921875,
+        "dists": 0.2789163589477539,
+        "psnr": 22.817352294921875,
+        "ssim": 0.5571701719154931
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 8,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_009.png",
+    "degradation_description": "The image exhibits severe global contrast loss and saturation loss, where the intense airlight and veiling strength cause significant depth-dependent fading and edge detail attenuation across the entire visual field.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.6337890625,
+        "dists": 0.31706082820892334,
+        "psnr": 17.314697265625,
+        "ssim": 0.4809153660107162
+      },
+      "ridcp": {
+        "lpips": 0.6484375,
+        "dists": 0.31261229515075684,
+        "psnr": 16.095775604248047,
+        "ssim": 0.36515607267461747
+      },
+      "dehazeformer": {
+        "lpips": 0.63720703125,
+        "dists": 0.318783700466156,
+        "psnr": 16.1954345703125,
+        "ssim": 0.5259676224076814
+      },
+      "maxim": {
+        "lpips": 0.6533203125,
+        "dists": 0.36021435260772705,
+        "psnr": 16.123802185058594,
+        "ssim": 0.5902658643633748
+      },
+      "diffplugin": {
+        "lpips": 0.625,
+        "dists": 0.2891277074813843,
+        "psnr": 19.058759689331055,
+        "ssim": 0.4621030015448524
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      5,
+      3,
+      4,
+      1
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 9,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_010.png",
+    "degradation_description": "The image exhibits a subtle reduction in global contrast and saturation, accompanied by a faint veiling effect that slightly attenuates edge details and causes a gentle depth-dependent fading across the architectural surfaces.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.430908203125,
+        "dists": 0.35217928886413574,
+        "psnr": 14.724355697631836,
+        "ssim": 0.5178527164215425
+      },
+      "ridcp": {
+        "lpips": 0.454345703125,
+        "dists": 0.3574233055114746,
+        "psnr": 15.661069869995117,
+        "ssim": 0.43833720805972953
+      },
+      "dehazeformer": {
+        "lpips": 0.425537109375,
+        "dists": 0.3492887020111084,
+        "psnr": 14.490246772766113,
+        "ssim": 0.535419929853743
+      },
+      "maxim": {
+        "lpips": 0.3916015625,
+        "dists": 0.34380441904067993,
+        "psnr": 17.903688430786133,
+        "ssim": 0.6240573263144701
+      },
+      "diffplugin": {
+        "lpips": 0.451904296875,
+        "dists": 0.3291241526603699,
+        "psnr": 16.162336349487305,
+        "ssim": 0.34660462495944216
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      4,
+      5,
+      2,
+      1,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 10,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_011.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the presence of strong airlight and veiling reduces the overall dynamic range, causing depth-dependent fading and edge detail attenuation across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.38916015625,
+        "dists": 0.30156421661376953,
+        "psnr": 14.99465560913086,
+        "ssim": 0.5988966137472711
+      },
+      "ridcp": {
+        "lpips": 0.400390625,
+        "dists": 0.3179168701171875,
+        "psnr": 15.483068466186523,
+        "ssim": 0.5178177514040112
+      },
+      "dehazeformer": {
+        "lpips": 0.397216796875,
+        "dists": 0.319382905960083,
+        "psnr": 13.121224403381348,
+        "ssim": 0.5762684843172637
+      },
+      "maxim": {
+        "lpips": 0.369140625,
+        "dists": 0.2893369197845459,
+        "psnr": 17.855403900146484,
+        "ssim": 0.6923905553067042
+      },
+      "diffplugin": {
+        "lpips": 0.415283203125,
+        "dists": 0.28618812561035156,
+        "psnr": 16.697662353515625,
+        "ssim": 0.4073028171956669
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      4,
+      5,
+      1,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 11,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_012.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the presence of strong airlight and veiling reduces the overall dynamic range and color intensity, resulting in a washed-out appearance across the entire frame.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.3916015625,
+        "dists": 0.2999328374862671,
+        "psnr": 19.674217224121094,
+        "ssim": 0.6126628792968855
+      },
+      "ridcp": {
+        "lpips": 0.450439453125,
+        "dists": 0.3190748691558838,
+        "psnr": 17.40167808532715,
+        "ssim": 0.5039012557425074
+      },
+      "dehazeformer": {
+        "lpips": 0.380859375,
+        "dists": 0.29333746433258057,
+        "psnr": 20.494325637817383,
+        "ssim": 0.6517169200484334
+      },
+      "maxim": {
+        "lpips": 0.36083984375,
+        "dists": 0.2943636178970337,
+        "psnr": 19.909278869628906,
+        "ssim": 0.6998083687659958
+      },
+      "diffplugin": {
+        "lpips": 0.4033203125,
+        "dists": 0.3021699786186218,
+        "psnr": 17.65878677368164,
+        "ssim": 0.42482223562789945
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      5,
+      1,
+      2,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 12,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_013.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the presence of strong airlight and veiling reduces the overall dynamic range, causing depth-dependent fading and edge detail attenuation across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.431884765625,
+        "dists": 0.2855795621871948,
+        "psnr": 17.26059913635254,
+        "ssim": 0.6025445239407179
+      },
+      "ridcp": {
+        "lpips": 0.46484375,
+        "dists": 0.30435711145401,
+        "psnr": 16.358564376831055,
+        "ssim": 0.4908930900399359
+      },
+      "dehazeformer": {
+        "lpips": 0.427978515625,
+        "dists": 0.28689050674438477,
+        "psnr": 17.387826919555664,
+        "ssim": 0.6065087808069365
+      },
+      "maxim": {
+        "lpips": 0.40673828125,
+        "dists": 0.28127479553222656,
+        "psnr": 18.027570724487305,
+        "ssim": 0.6795649108246363
+      },
+      "diffplugin": {
+        "lpips": 0.44677734375,
+        "dists": 0.2806209325790405,
+        "psnr": 17.306249618530273,
+        "ssim": 0.394352156639171
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      5,
+      2,
+      1,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 13,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_014.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the presence of strong airlight and veiling reduces the overall dynamic range and color intensity, resulting in a washed-out appearance across the entire frame.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.3466796875,
+        "dists": 0.2812248468399048,
+        "psnr": 19.64327049255371,
+        "ssim": 0.6528620179111535
+      },
+      "ridcp": {
+        "lpips": 0.41845703125,
+        "dists": 0.30147337913513184,
+        "psnr": 17.843257904052734,
+        "ssim": 0.5252534717048924
+      },
+      "dehazeformer": {
+        "lpips": 0.33154296875,
+        "dists": 0.27804815769195557,
+        "psnr": 20.804168701171875,
+        "ssim": 0.6836158692725414
+      },
+      "maxim": {
+        "lpips": 0.313720703125,
+        "dists": 0.2787579894065857,
+        "psnr": 20.559375762939453,
+        "ssim": 0.7390664483025134
+      },
+      "diffplugin": {
+        "lpips": 0.37158203125,
+        "dists": 0.28330421447753906,
+        "psnr": 19.96222686767578,
+        "ssim": 0.48879903474966163
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      5,
+      1,
+      2,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 14,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_015.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the presence of strong airlight and veiling reduces the overall tonal range, causing depth-dependent fading and edge detail attenuation across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.3798828125,
+        "dists": 0.29583942890167236,
+        "psnr": 18.151275634765625,
+        "ssim": 0.6193095256798116
+      },
+      "ridcp": {
+        "lpips": 0.432373046875,
+        "dists": 0.3199675679206848,
+        "psnr": 16.181333541870117,
+        "ssim": 0.5105339602626575
+      },
+      "dehazeformer": {
+        "lpips": 0.370849609375,
+        "dists": 0.2913120985031128,
+        "psnr": 19.949743270874023,
+        "ssim": 0.6411142623381426
+      },
+      "maxim": {
+        "lpips": 0.352783203125,
+        "dists": 0.29583168029785156,
+        "psnr": 19.148319244384766,
+        "ssim": 0.7075602239842922
+      },
+      "diffplugin": {
+        "lpips": 0.40478515625,
+        "dists": 0.30531227588653564,
+        "psnr": 18.13178253173828,
+        "ssim": 0.41117529488867505
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      5,
+      1,
+      2,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 15,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_016.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, accompanied by strong airlight veiling that causes depth-dependent fading and attenuates edge details across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.42724609375,
+        "dists": 0.29691076278686523,
+        "psnr": 19.66705894470215,
+        "ssim": 0.5779993442557215
+      },
+      "ridcp": {
+        "lpips": 0.41015625,
+        "dists": 0.24773740768432617,
+        "psnr": 16.611230850219727,
+        "ssim": 0.5616808078575527
+      },
+      "dehazeformer": {
+        "lpips": 0.423583984375,
+        "dists": 0.2780407667160034,
+        "psnr": 19.82172966003418,
+        "ssim": 0.5885729006378955
+      },
+      "maxim": {
+        "lpips": 0.424072265625,
+        "dists": 0.3077731132507324,
+        "psnr": 19.92017364501953,
+        "ssim": 0.590531921805059
+      },
+      "diffplugin": {
+        "lpips": 0.421875,
+        "dists": 0.24869781732559204,
+        "psnr": 18.392513275146484,
+        "ssim": 0.3399579570238965
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      5,
+      2,
+      1,
+      3,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 16,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_017.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the presence of strong airlight and veiling reduces the depth-dependent fading and attenuates edge detail across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.454345703125,
+        "dists": 0.32335174083709717,
+        "psnr": 20.077178955078125,
+        "ssim": 0.5346353165006403
+      },
+      "ridcp": {
+        "lpips": 0.471923828125,
+        "dists": 0.2727636694908142,
+        "psnr": 16.860069274902344,
+        "ssim": 0.4818826606724553
+      },
+      "dehazeformer": {
+        "lpips": 0.45947265625,
+        "dists": 0.33321183919906616,
+        "psnr": 18.010208129882812,
+        "ssim": 0.5227526989971053
+      },
+      "maxim": {
+        "lpips": 0.44482421875,
+        "dists": 0.3248978853225708,
+        "psnr": 19.374073028564453,
+        "ssim": 0.5448342521890854
+      },
+      "diffplugin": {
+        "lpips": 0.462646484375,
+        "dists": 0.2775455713272095,
+        "psnr": 17.207172393798828,
+        "ssim": 0.2876142453196303
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      3,
+      2,
+      5
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 17,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_018.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the strong airlight and veiling strength cause depth-dependent fading and edge detail attenuation across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.358154296875,
+        "dists": 0.2662208080291748,
+        "psnr": 18.09659194946289,
+        "ssim": 0.619396280678934
+      },
+      "ridcp": {
+        "lpips": 0.398681640625,
+        "dists": 0.2235913872718811,
+        "psnr": 17.729801177978516,
+        "ssim": 0.5626202639808815
+      },
+      "dehazeformer": {
+        "lpips": 0.36083984375,
+        "dists": 0.2686275243759155,
+        "psnr": 17.5654296875,
+        "ssim": 0.6145039339289822
+      },
+      "maxim": {
+        "lpips": 0.34033203125,
+        "dists": 0.2464808225631714,
+        "psnr": 19.95659637451172,
+        "ssim": 0.6430190490042293
+      },
+      "diffplugin": {
+        "lpips": 0.370849609375,
+        "dists": 0.23649483919143677,
+        "psnr": 18.60776710510254,
+        "ssim": 0.3460119576794373
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      4,
+      5,
+      1,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 18,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_019.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the overwhelming strength of the airlight creates a uniform gray veil that causes depth-dependent fading and severe edge detail attenuation across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.469970703125,
+        "dists": 0.3179190158843994,
+        "psnr": 19.598400115966797,
+        "ssim": 0.5397169353223159
+      },
+      "ridcp": {
+        "lpips": 0.43359375,
+        "dists": 0.25933969020843506,
+        "psnr": 16.88471221923828,
+        "ssim": 0.4957792058070929
+      },
+      "dehazeformer": {
+        "lpips": 0.46240234375,
+        "dists": 0.3117103576660156,
+        "psnr": 17.893402099609375,
+        "ssim": 0.5341412069889471
+      },
+      "maxim": {
+        "lpips": 0.47607421875,
+        "dists": 0.3319382667541504,
+        "psnr": 17.139381408691406,
+        "ssim": 0.5284402560179049
+      },
+      "diffplugin": {
+        "lpips": 0.44189453125,
+        "dists": 0.2682133913040161,
+        "psnr": 17.467273712158203,
+        "ssim": 0.30860243611064525
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      3,
+      2,
+      5,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 19,
+    "degradation_type": "haze",
+    "tools_name": [
+      "xrestormer",
+      "ridcp",
+      "dehazeformer",
+      "maxim",
+      "diffplugin"
+    ],
+    "lq_img_path": "images/lq/haze+rain/sample_020.png",
+    "degradation_description": "The image exhibits significant global contrast loss and saturation loss, where the strong airlight and veiling strength cause depth-dependent fading and edge detail attenuation across the entire scene.",
+    "fidelity_scores": {
+      "xrestormer": {
+        "lpips": 0.58935546875,
+        "dists": 0.3251606822013855,
+        "psnr": 19.496280670166016,
+        "ssim": 0.5031487286994721
+      },
+      "ridcp": {
+        "lpips": 0.66796875,
+        "dists": 0.37042832374572754,
+        "psnr": 14.729227066040039,
+        "ssim": 0.37787841308915926
+      },
+      "dehazeformer": {
+        "lpips": 0.60302734375,
+        "dists": 0.33470606803894043,
+        "psnr": 17.3525390625,
+        "ssim": 0.48508092454396556
+      },
+      "maxim": {
+        "lpips": 0.6396484375,
+        "dists": 0.36729586124420166,
+        "psnr": 13.393887519836426,
+        "ssim": 0.4274316967584047
+      },
+      "diffplugin": {
+        "lpips": 0.61181640625,
+        "dists": 0.3391703963279724,
+        "psnr": 14.738158226013184,
+        "ssim": 0.31296880428207513
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      5,
+      2,
+      4,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  }
+]

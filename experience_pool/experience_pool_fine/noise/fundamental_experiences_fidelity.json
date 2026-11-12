@@ -1,0 +1,73 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "noise",
+    "dimension": "fidelity",
+    "degradation_pattern": "A subtle, low-intensity luminance noise that preserves underlying structural details with minimal visual obstruction, characterized by fine-grained textures primarily affecting mid-tones or darker regions without significant color artifacts.",
+    "ranking": {
+      "mprnet": 1,
+      "swinir_15": 2,
+      "swinir_50": 3,
+      "xrestormer": 4,
+      "maxim": 5,
+      "restormer": 6
+    },
+    "related_trajectory_ids": [
+      1,
+      3,
+      14,
+      15,
+      19
+    ],
+    "count": 2
+  },
+  {
+    "exp_id": 1,
+    "degradation_type": "noise",
+    "dimension": "fidelity",
+    "degradation_pattern": "High-intensity, fine-grained luminance-dominant noise characterized by pervasive random speckling that significantly reduces spatial correlation and obscures fine details across the entire visual field, including dark regions and text areas.",
+    "ranking": {
+      "restormer": 1,
+      "mprnet": 2,
+      "swinir_15": 3,
+      "swinir_50": 4,
+      "maxim": 5,
+      "xrestormer": 6
+    },
+    "related_trajectory_ids": [
+      0,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      17
+    ],
+    "count": 2
+  },
+  {
+    "exp_id": 2,
+    "degradation_type": "noise",
+    "dimension": "fidelity",
+    "degradation_pattern": "A moderate intensity noise pattern that falls between subtle and pervasive, affecting visibility but retaining some structural integrity, often characterized by mixed frequency components.",
+    "ranking": {
+      "mprnet": 1,
+      "restormer": 2,
+      "maxim": 3,
+      "swinir_15": 4,
+      "xrestormer": 5,
+      "swinir_50": 6
+    },
+    "related_trajectory_ids": [
+      2,
+      8,
+      18
+    ],
+    "count": 2
+  }
+]

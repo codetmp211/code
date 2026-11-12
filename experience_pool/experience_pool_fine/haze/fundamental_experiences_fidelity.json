@@ -1,0 +1,86 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "haze",
+    "dimension": "fidelity",
+    "degradation_pattern": "The pure semantic representation is characterized by severe global contrast and saturation loss driven by overwhelming airlight and veiling strength, inducing significant depth-dependent fading and substantial edge detail attenuation across the entire scene.",
+    "ranking": {
+      "diffplugin": 1,
+      "xrestormer": 2,
+      "maxim": 3,
+      "dehazeformer": 4,
+      "ridcp": 5
+    },
+    "related_trajectory_ids": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      8
+    ],
+    "count": 1
+  },
+  {
+    "exp_id": 1,
+    "degradation_type": "haze",
+    "dimension": "fidelity",
+    "degradation_pattern": "The pure semantic representation is defined by significant global contrast and saturation loss where strong airlight and veiling reduce the overall dynamic range and color vibrancy, resulting in a washed-out appearance across the entire frame.",
+    "ranking": {
+      "dehazeformer": 1,
+      "ridcp": 2,
+      "maxim": 3,
+      "diffplugin": 4,
+      "xrestormer": 5
+    },
+    "related_trajectory_ids": [
+      4,
+      6,
+      7,
+      13,
+      14,
+      15
+    ],
+    "count": 2
+  },
+  {
+    "exp_id": 2,
+    "degradation_type": "haze",
+    "dimension": "fidelity",
+    "degradation_pattern": "The pure semantic representation is marked by a subtle reduction in global contrast and saturation, accompanied by a faint veiling effect that slightly attenuates edge details and causes gentle depth-dependent fading.",
+    "ranking": {
+      "maxim": 1,
+      "dehazeformer": 2,
+      "diffplugin": 3,
+      "xrestormer": 4,
+      "ridcp": 5
+    },
+    "related_trajectory_ids": [
+      9
+    ],
+    "count": 1
+  },
+  {
+    "exp_id": 3,
+    "degradation_type": "haze",
+    "dimension": "fidelity",
+    "degradation_pattern": "Degradation patterns distinct from strong airlight and veiling, likely involving other artifacts not characterized by the specific global contrast loss of Pattern 1, with tool rankings that differ from the top three of Pattern 1.",
+    "ranking": {
+      "maxim": 1,
+      "xrestormer": 2,
+      "diffplugin": 3,
+      "ridcp": 4,
+      "dehazeformer": 5
+    },
+    "related_trajectory_ids": [
+      10,
+      11,
+      12,
+      16,
+      17,
+      18,
+      19
+    ],
+    "count": 1
+  }
+]

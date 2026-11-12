@@ -1,0 +1,73 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "motion blur",
+    "dimension": "perception",
+    "degradation_pattern": "Characterized by directional smearing effects ranging from severe geometric distortion and edge ghosting to mild softening of fine details, where the primary axis of degradation causes uniform smearing without necessarily merging distinct elements into continuous lines in all cases.",
+    "ranking": {
+      "mprnet": 1,
+      "restormer": 2,
+      "nafnet": 3,
+      "xrestormer": 4,
+      "maxim": 5,
+      "EVSSM": 6
+    },
+    "related_trajectory_ids": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      32,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "count": 2
+  },
+  {
+    "exp_id": 1,
+    "degradation_type": "motion blur",
+    "dimension": "perception",
+    "degradation_pattern": "Defined by directional motion blur that creates consistent horizontal or vertical streaking, resulting in a loss of fine detail and a smeared appearance of geometric structures, distinct from the general directional smearing of the first pattern.",
+    "ranking": {
+      "xrestormer": 1,
+      "EVSSM": 2,
+      "mprnet": 3,
+      "maxim": 4,
+      "restormer": 5,
+      "nafnet": 6
+    },
+    "related_trajectory_ids": [
+      25,
+      29
+    ],
+    "count": 1
+  },
+  {
+    "exp_id": 2,
+    "degradation_type": "motion blur",
+    "dimension": "perception",
+    "degradation_pattern": "The degradation pattern involves directional smearing or motion blur causing loss of fine detail and introducing a ghosting appearance, particularly distorting geometry and edges, with a focus on structural line distortion.",
+    "ranking": {
+      "restormer": 1,
+      "mprnet": 2,
+      "maxim": 3,
+      "xrestormer": 4,
+      "nafnet": 5,
+      "EVSSM": 6
+    },
+    "related_trajectory_ids": [
+      30,
+      31,
+      33,
+      39
+    ],
+    "count": 1
+  }
+]

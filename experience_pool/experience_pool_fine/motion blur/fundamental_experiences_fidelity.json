@@ -1,0 +1,73 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "motion blur",
+    "dimension": "fidelity",
+    "degradation_pattern": "The pure semantic representation of the degradation pattern text information is characterized by significant directional motion blur that creates a uniform horizontal streaking effect across the entire frame, causing distinct geometric structures and text to lose their sharp boundaries and appear smeared along the axis of movement, resulting in a consistent loss of fine detail and edge ghosting.",
+    "ranking": {
+      "nafnet": 1,
+      "xrestormer": 2,
+      "maxim": 3,
+      "restormer": 4,
+      "mprnet": 5,
+      "EVSSM": 6
+    },
+    "related_trajectory_ids": [
+      0,
+      1,
+      2,
+      3,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "count": 2
+  },
+  {
+    "exp_id": 1,
+    "degradation_type": "motion blur",
+    "dimension": "fidelity",
+    "degradation_pattern": "The pure semantic representation of the degradation pattern text information is defined by subtle, mild directional smearing or softening effects that slightly reduce fine detail sharpness and create faint edge ghosting without significantly altering the overall geometry or structure of the objects in the scene.",
+    "ranking": {
+      "nafnet": 1,
+      "mprnet": 2,
+      "xrestormer": 3,
+      "restormer": 4,
+      "maxim": 5,
+      "EVSSM": 6
+    },
+    "related_trajectory_ids": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "count": 1
+  },
+  {
+    "exp_id": 2,
+    "degradation_type": "motion blur",
+    "dimension": "fidelity",
+    "degradation_pattern": "The pure semantic representation of the degradation pattern text information is characterized by moderate directional blur with noticeable but less severe geometric distortion compared to high-intensity events, maintaining some structural integrity while introducing visible streaking.",
+    "ranking": {
+      "mprnet": 1,
+      "xrestormer": 2,
+      "nafnet": 3,
+      "restormer": 4,
+      "EVSSM": 5,
+      "maxim": 6
+    },
+    "related_trajectory_ids": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "count": 2
+  }
+]

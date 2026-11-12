@@ -1,0 +1,37 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "jpeg compression artifact",
+    "dimension": "fidelity",
+    "degradation_pattern": "The presence of subtle to minimal blocking artifacts and grid visibility that segment continuous surfaces or smooth gradients into faint, visible rectangular or square blocks, causing slight disruption to texture uniformity and fine detail preservation.",
+    "ranking": {
+      "fbcnn_blind": 1,
+      "fbcnn_90": 2,
+      "swinir_40": 3,
+      "fbcnn_5": 4
+    },
+    "related_trajectory_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "count": 2
+  }
+]

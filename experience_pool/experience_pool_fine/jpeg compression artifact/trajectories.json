@@ -1,0 +1,3682 @@
+[
+  {
+    "task_id": 0,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_001.png",
+    "degradation_description": "The image exhibits subtle blocking artifacts where the continuous surfaces of the building facade and the pink column are segmented into faint, visible rectangular grid patterns.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.3740234375,
+        "dists": 0.23070776462554932,
+        "psnr": 21.805944442749023,
+        "ssim": 0.753085029803604
+      },
+      "fbcnn_5": {
+        "lpips": 0.458984375,
+        "dists": 0.29387062788009644,
+        "psnr": 21.85235595703125,
+        "ssim": 0.7518163274206792
+      },
+      "fbcnn_90": {
+        "lpips": 0.365478515625,
+        "dists": 0.22561907768249512,
+        "psnr": 21.804349899291992,
+        "ssim": 0.7523358746298784
+      },
+      "swinir_40": {
+        "lpips": 0.39404296875,
+        "dists": 0.24459195137023926,
+        "psnr": 21.812057495117188,
+        "ssim": 0.7535614939994718
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 1,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_002.png",
+    "degradation_description": "The image exhibits subtle blocking artifacts where the compression algorithm has divided the scene into small, distinct square blocks, leading to a slight loss of fine texture and detail in the smoother areas.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.36083984375,
+        "dists": 0.21788227558135986,
+        "psnr": 21.642066955566406,
+        "ssim": 0.7409642243781797
+      },
+      "fbcnn_5": {
+        "lpips": 0.45751953125,
+        "dists": 0.28823328018188477,
+        "psnr": 21.666173934936523,
+        "ssim": 0.737844659949005
+      },
+      "fbcnn_90": {
+        "lpips": 0.357421875,
+        "dists": 0.21604317426681519,
+        "psnr": 21.641494750976562,
+        "ssim": 0.7407262457245868
+      },
+      "swinir_40": {
+        "lpips": 0.386962890625,
+        "dists": 0.23324233293533325,
+        "psnr": 21.647462844848633,
+        "ssim": 0.7412495201694931
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 2,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_003.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility, particularly noticeable in the smooth surfaces of the pink column and the glass windows, where slight blockiness disrupts the uniformity of the texture.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.372314453125,
+        "dists": 0.22405844926834106,
+        "psnr": 21.64832878112793,
+        "ssim": 0.7472373894313976
+      },
+      "fbcnn_5": {
+        "lpips": 0.458984375,
+        "dists": 0.2873416543006897,
+        "psnr": 21.685611724853516,
+        "ssim": 0.7445946635350417
+      },
+      "fbcnn_90": {
+        "lpips": 0.371826171875,
+        "dists": 0.22383397817611694,
+        "psnr": 21.648345947265625,
+        "ssim": 0.7471965185427394
+      },
+      "swinir_40": {
+        "lpips": 0.396728515625,
+        "dists": 0.23780286312103271,
+        "psnr": 21.649730682373047,
+        "ssim": 0.7469665247382518
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      4,
+      1,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 3,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_004.png",
+    "degradation_description": "The image exhibits subtle blocking artifacts where the continuous gradients of the pink column and the glass reflections are segmented into faint, visible square blocks, slightly disrupting the smooth texture.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.34033203125,
+        "dists": 0.19844883680343628,
+        "psnr": 22.062971115112305,
+        "ssim": 0.7612741959113936
+      },
+      "fbcnn_5": {
+        "lpips": 0.427490234375,
+        "dists": 0.26145827770233154,
+        "psnr": 22.08205223083496,
+        "ssim": 0.7584711537530524
+      },
+      "fbcnn_90": {
+        "lpips": 0.329833984375,
+        "dists": 0.19073694944381714,
+        "psnr": 22.061643600463867,
+        "ssim": 0.7603141839520298
+      },
+      "swinir_40": {
+        "lpips": 0.35791015625,
+        "dists": 0.20888137817382812,
+        "psnr": 22.067602157592773,
+        "ssim": 0.7616873773853114
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 4,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_005.png",
+    "degradation_description": "The image exhibits minimal blocking and grid visibility, with slight texture loss and detail smearing evident in the smooth surfaces of the blue bottle and the red advertisement panel.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.1981201171875,
+        "dists": 0.10206735134124756,
+        "psnr": 24.778839111328125,
+        "ssim": 0.8314172809093938
+      },
+      "fbcnn_5": {
+        "lpips": 0.277587890625,
+        "dists": 0.17616617679595947,
+        "psnr": 24.694202423095703,
+        "ssim": 0.822181170115642
+      },
+      "fbcnn_90": {
+        "lpips": 0.193603515625,
+        "dists": 0.09933406114578247,
+        "psnr": 24.77850341796875,
+        "ssim": 0.8311115203353762
+      },
+      "swinir_40": {
+        "lpips": 0.22412109375,
+        "dists": 0.12110579013824463,
+        "psnr": 24.768583297729492,
+        "ssim": 0.830427420724949
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 5,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_006.png",
+    "degradation_description": "The image exhibits minimal blocking and grid visibility, with only faint blockiness noticeable in the smooth gradient areas of the blue bottle, while texture loss and detail smearing are virtually absent, preserving most fine details.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.1864013671875,
+        "dists": 0.09795743227005005,
+        "psnr": 24.85749053955078,
+        "ssim": 0.8337411528034394
+      },
+      "fbcnn_5": {
+        "lpips": 0.276611328125,
+        "dists": 0.1783229112625122,
+        "psnr": 24.760848999023438,
+        "ssim": 0.824626072430673
+      },
+      "fbcnn_90": {
+        "lpips": 0.185302734375,
+        "dists": 0.09718048572540283,
+        "psnr": 24.85761260986328,
+        "ssim": 0.8337377470632514
+      },
+      "swinir_40": {
+        "lpips": 0.219970703125,
+        "dists": 0.1224203109741211,
+        "psnr": 24.842060089111328,
+        "ssim": 0.8321338197927189
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      4,
+      1,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 6,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_007.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility, where the smooth surfaces of the blue bottle and the red advertisement poster show faint, blocky discontinuities that slightly disrupt the natural texture and detail.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.1982421875,
+        "dists": 0.10445606708526611,
+        "psnr": 24.313995361328125,
+        "ssim": 0.8173182457684673
+      },
+      "fbcnn_5": {
+        "lpips": 0.26953125,
+        "dists": 0.17331582307815552,
+        "psnr": 24.334117889404297,
+        "ssim": 0.8179665283161007
+      },
+      "fbcnn_90": {
+        "lpips": 0.1922607421875,
+        "dists": 0.1001594066619873,
+        "psnr": 24.31078338623047,
+        "ssim": 0.8164065091425837
+      },
+      "swinir_40": {
+        "lpips": 0.2181396484375,
+        "dists": 0.1209304928779602,
+        "psnr": 24.319854736328125,
+        "ssim": 0.8185899007508106
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      4,
+      3,
+      1
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 7,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_008.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility, particularly noticeable in the smooth gradient areas of the blue bottle, where slight blockiness disrupts the otherwise continuous surface texture.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.16796875,
+        "dists": 0.08484256267547607,
+        "psnr": 25.620525360107422,
+        "ssim": 0.8491191863102638
+      },
+      "fbcnn_5": {
+        "lpips": 0.252685546875,
+        "dists": 0.16382670402526855,
+        "psnr": 25.511619567871094,
+        "ssim": 0.839164502382296
+      },
+      "fbcnn_90": {
+        "lpips": 0.1622314453125,
+        "dists": 0.08139324188232422,
+        "psnr": 25.61663818359375,
+        "ssim": 0.8484073217244145
+      },
+      "swinir_40": {
+        "lpips": 0.1922607421875,
+        "dists": 0.10517990589141846,
+        "psnr": 25.619884490966797,
+        "ssim": 0.8488223994967325
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 8,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_009.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility, where the smooth surfaces of the blue bottle and the red advertisement poster show faint, blocky patterns that slightly disrupt the natural texture and detail.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.189697265625,
+        "dists": 0.09671831130981445,
+        "psnr": 24.442974090576172,
+        "ssim": 0.8208090127700943
+      },
+      "fbcnn_5": {
+        "lpips": 0.27734375,
+        "dists": 0.17462921142578125,
+        "psnr": 24.435592651367188,
+        "ssim": 0.8201889654446254
+      },
+      "fbcnn_90": {
+        "lpips": 0.189453125,
+        "dists": 0.09662705659866333,
+        "psnr": 24.442974090576172,
+        "ssim": 0.8207936638816989
+      },
+      "swinir_40": {
+        "lpips": 0.220458984375,
+        "dists": 0.11929184198379517,
+        "psnr": 24.446441650390625,
+        "ssim": 0.8214836517005413
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      4,
+      1,
+      2
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 9,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_010.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the smooth gradient areas of the sky and building facade, where slight blockiness disrupts the natural texture continuity.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.215087890625,
+        "dists": 0.11723411083221436,
+        "psnr": 26.39627456665039,
+        "ssim": 0.8031306242657161
+      },
+      "fbcnn_5": {
+        "lpips": 0.330810546875,
+        "dists": 0.2069936990737915,
+        "psnr": 26.46044158935547,
+        "ssim": 0.802104021940119
+      },
+      "fbcnn_90": {
+        "lpips": 0.2115478515625,
+        "dists": 0.11472189426422119,
+        "psnr": 26.392108917236328,
+        "ssim": 0.8024673782977854
+      },
+      "swinir_40": {
+        "lpips": 0.2403564453125,
+        "dists": 0.1332104206085205,
+        "psnr": 26.4102725982666,
+        "ssim": 0.8039771319060578
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 10,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_011.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the smooth gradient areas of the sky and the uniform surfaces of the building facade, where slight blockiness disrupts the natural texture continuity.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.2197265625,
+        "dists": 0.11430132389068604,
+        "psnr": 26.476512908935547,
+        "ssim": 0.8059526701836316
+      },
+      "fbcnn_5": {
+        "lpips": 0.336181640625,
+        "dists": 0.20280379056930542,
+        "psnr": 26.497047424316406,
+        "ssim": 0.8016378142266352
+      },
+      "fbcnn_90": {
+        "lpips": 0.21728515625,
+        "dists": 0.1137315034866333,
+        "psnr": 26.475234985351562,
+        "ssim": 0.8057432913268797
+      },
+      "swinir_40": {
+        "lpips": 0.2470703125,
+        "dists": 0.13191598653793335,
+        "psnr": 26.479461669921875,
+        "ssim": 0.8055552239455025
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 11,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_012.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility, particularly noticeable in the smooth gradient areas of the sky and the uniform surfaces of the building facade, where slight blockiness disrupts the natural texture.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.215087890625,
+        "dists": 0.11399698257446289,
+        "psnr": 26.24016571044922,
+        "ssim": 0.7993522368827575
+      },
+      "fbcnn_5": {
+        "lpips": 0.334228515625,
+        "dists": 0.2012118697166443,
+        "psnr": 26.298358917236328,
+        "ssim": 0.7987201353394079
+      },
+      "fbcnn_90": {
+        "lpips": 0.2120361328125,
+        "dists": 0.11280995607376099,
+        "psnr": 26.237993240356445,
+        "ssim": 0.7989874642298802
+      },
+      "swinir_40": {
+        "lpips": 0.2425537109375,
+        "dists": 0.12969577312469482,
+        "psnr": 26.25127601623535,
+        "ssim": 0.7999949137092276
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 12,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_013.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the smooth gradient areas of the sky and building facade, where the compression has caused slight blockiness and loss of fine texture detail.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.2166748046875,
+        "dists": 0.11659133434295654,
+        "psnr": 26.3099308013916,
+        "ssim": 0.7992405346632504
+      },
+      "fbcnn_5": {
+        "lpips": 0.326171875,
+        "dists": 0.19849979877471924,
+        "psnr": 26.405967712402344,
+        "ssim": 0.8005751717244279
+      },
+      "fbcnn_90": {
+        "lpips": 0.210693359375,
+        "dists": 0.11412650346755981,
+        "psnr": 26.30044937133789,
+        "ssim": 0.7975425763761574
+      },
+      "swinir_40": {
+        "lpips": 0.23681640625,
+        "dists": 0.12957382202148438,
+        "psnr": 26.33089828491211,
+        "ssim": 0.8010696637807909
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      4,
+      3,
+      1
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 13,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_014.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the smooth gradient areas of the sky and the uniform surfaces of the building facade, where the compression has caused slight blockiness.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.22705078125,
+        "dists": 0.11934554576873779,
+        "psnr": 26.063674926757812,
+        "ssim": 0.7912727218383411
+      },
+      "fbcnn_5": {
+        "lpips": 0.331787109375,
+        "dists": 0.1986602544784546,
+        "psnr": 26.14425277709961,
+        "ssim": 0.7926082472016123
+      },
+      "fbcnn_90": {
+        "lpips": 0.219970703125,
+        "dists": 0.11530530452728271,
+        "psnr": 26.05760383605957,
+        "ssim": 0.7899189364163807
+      },
+      "swinir_40": {
+        "lpips": 0.24609375,
+        "dists": 0.13159418106079102,
+        "psnr": 26.069860458374023,
+        "ssim": 0.7919758617063561
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 14,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_015.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the smooth gradient areas of the sky and the uniform surfaces of the building facade, where the compression has caused slight blockiness.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.2205810546875,
+        "dists": 0.11958742141723633,
+        "psnr": 26.021690368652344,
+        "ssim": 0.7957716032537994
+      },
+      "fbcnn_5": {
+        "lpips": 0.3388671875,
+        "dists": 0.20277923345565796,
+        "psnr": 26.070249557495117,
+        "ssim": 0.7945181104543217
+      },
+      "fbcnn_90": {
+        "lpips": 0.21533203125,
+        "dists": 0.11757665872573853,
+        "psnr": 26.017148971557617,
+        "ssim": 0.7949463123687459
+      },
+      "swinir_40": {
+        "lpips": 0.24609375,
+        "dists": 0.13198542594909668,
+        "psnr": 26.028770446777344,
+        "ssim": 0.7959662686870748
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 15,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_016.png",
+    "degradation_description": "The image exhibits subtle blocking artifacts where the smooth gradient of the blue wall is disrupted by faint, grid-like boundaries between compressed blocks, slightly reducing the overall texture fidelity.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.34912109375,
+        "dists": 0.21063047647476196,
+        "psnr": 29.6463623046875,
+        "ssim": 0.9080622417964119
+      },
+      "fbcnn_5": {
+        "lpips": 0.4130859375,
+        "dists": 0.286446213722229,
+        "psnr": 29.694231033325195,
+        "ssim": 0.9098839067572223
+      },
+      "fbcnn_90": {
+        "lpips": 0.3388671875,
+        "dists": 0.19836890697479248,
+        "psnr": 29.638967514038086,
+        "ssim": 0.9071631845052989
+      },
+      "swinir_40": {
+        "lpips": 0.35986328125,
+        "dists": 0.23105865716934204,
+        "psnr": 29.658233642578125,
+        "ssim": 0.9088011474976287
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 16,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_017.png",
+    "degradation_description": "The image exhibits noticeable blocking and grid visibility, where the smooth surfaces are segmented into distinct square blocks, accompanied by slight texture loss and detail smearing that reduces overall sharpness.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.35107421875,
+        "dists": 0.20807546377182007,
+        "psnr": 29.66184425354004,
+        "ssim": 0.9071882538113437
+      },
+      "fbcnn_5": {
+        "lpips": 0.418212890625,
+        "dists": 0.2869614362716675,
+        "psnr": 29.711090087890625,
+        "ssim": 0.9089637664017641
+      },
+      "fbcnn_90": {
+        "lpips": 0.3427734375,
+        "dists": 0.19620859622955322,
+        "psnr": 29.653348922729492,
+        "ssim": 0.90634465827444
+      },
+      "swinir_40": {
+        "lpips": 0.36181640625,
+        "dists": 0.22831231355667114,
+        "psnr": 29.67308807373047,
+        "ssim": 0.907865438738891
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 17,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_018.png",
+    "degradation_description": "The image exhibits noticeable blocking and grid visibility, where the smooth surfaces are segmented into distinct square blocks, accompanied by slight texture loss and detail smearing that reduces overall sharpness.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.32275390625,
+        "dists": 0.1920897364616394,
+        "psnr": 30.167638778686523,
+        "ssim": 0.9160231024713845
+      },
+      "fbcnn_5": {
+        "lpips": 0.405517578125,
+        "dists": 0.28632432222366333,
+        "psnr": 30.19317626953125,
+        "ssim": 0.916919679381308
+      },
+      "fbcnn_90": {
+        "lpips": 0.31591796875,
+        "dists": 0.1859797239303589,
+        "psnr": 30.163515090942383,
+        "ssim": 0.9156432947063473
+      },
+      "swinir_40": {
+        "lpips": 0.345703125,
+        "dists": 0.22400587797164917,
+        "psnr": 30.1833438873291,
+        "ssim": 0.9166230111356362
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 18,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_019.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility, where the smooth gradient of the blue wall is disrupted by faint, blocky artifacts that slightly reduce texture detail.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.341064453125,
+        "dists": 0.20393353700637817,
+        "psnr": 30.078556060791016,
+        "ssim": 0.9138017382078688
+      },
+      "fbcnn_5": {
+        "lpips": 0.4169921875,
+        "dists": 0.2904471158981323,
+        "psnr": 30.10068702697754,
+        "ssim": 0.9151227172380628
+      },
+      "fbcnn_90": {
+        "lpips": 0.336181640625,
+        "dists": 0.1971137523651123,
+        "psnr": 30.07567596435547,
+        "ssim": 0.9134775740739457
+      },
+      "swinir_40": {
+        "lpips": 0.359619140625,
+        "dists": 0.23320573568344116,
+        "psnr": 30.09090232849121,
+        "ssim": 0.9144745025664728
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 19,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_020.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the uniform areas of the building's facade, where slight blockiness disrupts the smooth texture.",
+    "fidelity_scores": {
+      "fbcnn_blind": {
+        "lpips": 0.51123046875,
+        "dists": 0.2803865671157837,
+        "psnr": 18.715274810791016,
+        "ssim": 0.5070910416453819
+      },
+      "fbcnn_5": {
+        "lpips": 0.6025390625,
+        "dists": 0.3073093295097351,
+        "psnr": 18.756145477294922,
+        "ssim": 0.5037398985841963
+      },
+      "fbcnn_90": {
+        "lpips": 0.50341796875,
+        "dists": 0.28546786308288574,
+        "psnr": 18.713871002197266,
+        "ssim": 0.5065430511644796
+      },
+      "swinir_40": {
+        "lpips": 0.5322265625,
+        "dists": 0.2751612663269043,
+        "psnr": 18.71637725830078,
+        "ssim": 0.50657753001434
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      3,
+      2
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 20,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_001.png",
+    "degradation_description": "The image exhibits subtle blocking artifacts where the compression algorithm has created a faint grid-like structure, slightly reducing the smoothness of large uniform surfaces.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.20100943744182587,
+        "musiq": 22.515625,
+        "niqe": 7.976726232964238,
+        "maniqa": 0.14905910193920135,
+        "brisque": 65.0625,
+        "nima": 4.107146263122559
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.23032453656196594,
+        "musiq": 25.609375,
+        "niqe": 9.117710389232718,
+        "maniqa": 0.19508275389671326,
+        "brisque": 82.125,
+        "nima": 4.46660041809082
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.19060686230659485,
+        "musiq": 21.84375,
+        "niqe": 7.791079824621651,
+        "maniqa": 0.13996854424476624,
+        "brisque": 65.5625,
+        "nima": 4.090532302856445
+      },
+      "swinir_40": {
+        "clipiqa": 0.21422915160655975,
+        "musiq": 24.609375,
+        "niqe": 8.459743825841786,
+        "maniqa": 0.1738635003566742,
+        "brisque": 74.4375,
+        "nima": 4.2234416007995605
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      1,
+      4,
+      2
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 21,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_002.png",
+    "degradation_description": "The image exhibits subtle blocking artifacts where the continuous tonal gradients of the pink column and the glass reflections are segmented into faint, visible rectangular blocks, slightly disrupting the smooth texture.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.20740394294261932,
+        "musiq": 22.875,
+        "niqe": 8.004982259498723,
+        "maniqa": 0.15765079855918884,
+        "brisque": 68.625,
+        "nima": 3.948864459991455
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.22443567216396332,
+        "musiq": 26.140625,
+        "niqe": 9.342627043078648,
+        "maniqa": 0.19112373888492584,
+        "brisque": 81.625,
+        "nima": 4.261057376861572
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.20488642156124115,
+        "musiq": 22.625,
+        "niqe": 7.9737717998588415,
+        "maniqa": 0.15376895666122437,
+        "brisque": 65.0625,
+        "nima": 3.935546398162842
+      },
+      "swinir_40": {
+        "clipiqa": 0.2176251858472824,
+        "musiq": 24.53125,
+        "niqe": 8.559978283368629,
+        "maniqa": 0.181947723031044,
+        "brisque": 72.125,
+        "nima": 4.063897609710693
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      1,
+      4,
+      2
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 22,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_003.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility, particularly noticeable in the smooth surfaces of the pink column and the glass windows, where slight blockiness disrupts the uniformity of the texture.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.20218122005462646,
+        "musiq": 21.609375,
+        "niqe": 7.878053148776088,
+        "maniqa": 0.15829120576381683,
+        "brisque": 70.1875,
+        "nima": 3.890075206756592
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.226639986038208,
+        "musiq": 26.140625,
+        "niqe": 9.493993998321733,
+        "maniqa": 0.18866850435733795,
+        "brisque": 86.1875,
+        "nima": 4.158205032348633
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.20136849582195282,
+        "musiq": 21.5,
+        "niqe": 7.845555869433889,
+        "maniqa": 0.15768581628799438,
+        "brisque": 68.9375,
+        "nima": 3.88905668258667
+      },
+      "swinir_40": {
+        "clipiqa": 0.21718759834766388,
+        "musiq": 24.328125,
+        "niqe": 8.718781229549334,
+        "maniqa": 0.18239037692546844,
+        "brisque": 74.4375,
+        "nima": 4.008014678955078
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      1,
+      4,
+      2
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 23,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_004.png",
+    "degradation_description": "The image exhibits subtle blocking artifacts where the compression algorithm has created a faint grid-like structure, slightly reducing the smoothness of large uniform surfaces and introducing minor blockiness along edges.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.21663127839565277,
+        "musiq": 22.96875,
+        "niqe": 8.150424115208821,
+        "maniqa": 0.16848371922969818,
+        "brisque": 70.25,
+        "nima": 4.146947860717773
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.23510244488716125,
+        "musiq": 24.125,
+        "niqe": 9.458457024683518,
+        "maniqa": 0.20135597884655,
+        "brisque": 84.8125,
+        "nima": 4.349377632141113
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.20712018013000488,
+        "musiq": 21.921875,
+        "niqe": 7.696715186796782,
+        "maniqa": 0.15467451512813568,
+        "brisque": 65.125,
+        "nima": 4.08827543258667
+      },
+      "swinir_40": {
+        "clipiqa": 0.2255137413740158,
+        "musiq": 24.015625,
+        "niqe": 8.712358613435358,
+        "maniqa": 0.18599607050418854,
+        "brisque": 73.1875,
+        "nima": 4.247990608215332
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      1,
+      4,
+      2
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 24,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_005.png",
+    "degradation_description": "The image exhibits minimal blocking and grid visibility, with only faint blockiness noticeable in the smooth gradient areas of the blue bottle, while texture loss and detail smearing are virtually absent, preserving the sharpness of the advertisement text and the structural lines of the railing.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.2507975101470947,
+        "musiq": 41.75,
+        "niqe": 6.478917827936966,
+        "maniqa": 0.16333524882793427,
+        "brisque": 66.8125,
+        "nima": 4.178186416625977
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.2219531536102295,
+        "musiq": 37.15625,
+        "niqe": 7.677397573170652,
+        "maniqa": 0.18519657850265503,
+        "brisque": 74.0625,
+        "nima": 4.300095081329346
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.2511083781719208,
+        "musiq": 41.75,
+        "niqe": 6.187048003190338,
+        "maniqa": 0.15968134999275208,
+        "brisque": 64.625,
+        "nima": 4.170026779174805
+      },
+      "swinir_40": {
+        "clipiqa": 0.2420036345720291,
+        "musiq": 42.09375,
+        "niqe": 6.8543854790670204,
+        "maniqa": 0.1788899004459381,
+        "brisque": 66.5,
+        "nima": 4.241415023803711
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      4,
+      2,
+      1
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 25,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_006.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility, where the smooth surfaces of the blue bottle and the red advertisement poster show faint, blocky discontinuities that slightly disrupt the natural texture and detail.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.25414204597473145,
+        "musiq": 42.34375,
+        "niqe": 6.395532454108386,
+        "maniqa": 0.16777342557907104,
+        "brisque": 67.4375,
+        "nima": 4.116583824157715
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.21999891102313995,
+        "musiq": 38.5625,
+        "niqe": 7.830299448418563,
+        "maniqa": 0.18174195289611816,
+        "brisque": 73.3125,
+        "nima": 4.253182411193848
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.2529897391796112,
+        "musiq": 42.25,
+        "niqe": 6.3407474258080905,
+        "maniqa": 0.16729409992694855,
+        "brisque": 56.40625,
+        "nima": 4.115421295166016
+      },
+      "swinir_40": {
+        "clipiqa": 0.2453005611896515,
+        "musiq": 44.21875,
+        "niqe": 6.759511068839109,
+        "maniqa": 0.1842023879289627,
+        "brisque": 61.40625,
+        "nima": 4.208353042602539
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      4,
+      3,
+      1
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 26,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_007.png",
+    "degradation_description": "The image exhibits minimal blocking and grid visibility, with only faint blockiness noticeable in the smooth gradient areas of the blue bottle, while texture loss and detail smearing are virtually absent, preserving most fine details.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.24191157519817352,
+        "musiq": 42.4375,
+        "niqe": 6.824433987241606,
+        "maniqa": 0.16112279891967773,
+        "brisque": 65.625,
+        "nima": 4.222431182861328
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.22676876187324524,
+        "musiq": 41.3125,
+        "niqe": 7.894626114207068,
+        "maniqa": 0.1860625445842743,
+        "brisque": 59.34375,
+        "nima": 4.339613914489746
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.24448111653327942,
+        "musiq": 41.40625,
+        "niqe": 6.3871885711920475,
+        "maniqa": 0.15714144706726074,
+        "brisque": 58.09375,
+        "nima": 4.202661037445068
+      },
+      "swinir_40": {
+        "clipiqa": 0.23936401307582855,
+        "musiq": 44.46875,
+        "niqe": 7.024259274126311,
+        "maniqa": 0.1749533712863922,
+        "brisque": 59.28125,
+        "nima": 4.311456680297852
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      4,
+      2,
+      1
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 27,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_008.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility, where the smooth surfaces of the blue bottle and the red advertisement poster show faint, blocky discontinuities that slightly disrupt the natural texture and color gradients.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.26308050751686096,
+        "musiq": 51.03125,
+        "niqe": 6.234485429212793,
+        "maniqa": 0.18487274646759033,
+        "brisque": 60.78125,
+        "nima": 4.266831398010254
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.24290767312049866,
+        "musiq": 48.59375,
+        "niqe": 7.407519697745456,
+        "maniqa": 0.20290619134902954,
+        "brisque": 71.625,
+        "nima": 4.285691738128662
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.25926855206489563,
+        "musiq": 49.9375,
+        "niqe": 5.881555780941949,
+        "maniqa": 0.17974115908145905,
+        "brisque": 56.96875,
+        "nima": 4.258965969085693
+      },
+      "swinir_40": {
+        "clipiqa": 0.2678539752960205,
+        "musiq": 52.34375,
+        "niqe": 6.826963934209818,
+        "maniqa": 0.2030409425497055,
+        "brisque": 73.0,
+        "nima": 4.316262722015381
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      4,
+      3,
+      1
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 28,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_009.png",
+    "degradation_description": "The image exhibits subtle blocking artifacts where the smooth surfaces of the blue bottle and the red advertisement poster are segmented into faint, visible rectangular grid patterns.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.24433360993862152,
+        "musiq": 47.5625,
+        "niqe": 6.5643614194394155,
+        "maniqa": 0.16253289580345154,
+        "brisque": 52.15625,
+        "nima": 4.03293514251709
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.23079176247119904,
+        "musiq": 45.65625,
+        "niqe": 7.8587832343788415,
+        "maniqa": 0.189982607960701,
+        "brisque": 73.875,
+        "nima": 4.149409294128418
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.24368028342723846,
+        "musiq": 47.5625,
+        "niqe": 6.560403193875132,
+        "maniqa": 0.16233563423156738,
+        "brisque": 54.59375,
+        "nima": 4.031973838806152
+      },
+      "swinir_40": {
+        "clipiqa": 0.24832068383693695,
+        "musiq": 48.78125,
+        "niqe": 7.2277296518324645,
+        "maniqa": 0.180880606174469,
+        "brisque": 65.3125,
+        "nima": 4.127686023712158
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      4,
+      3,
+      1
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 29,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_010.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the smooth gradient areas of the sky and the uniform surfaces of the building facade, where the compression algorithm has introduced slight blockiness.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.24809996783733368,
+        "musiq": 43.65625,
+        "niqe": 6.31732606704756,
+        "maniqa": 0.21375545859336853,
+        "brisque": 60.65625,
+        "nima": 3.9148404598236084
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.2313939779996872,
+        "musiq": 45.6875,
+        "niqe": 7.270523546559415,
+        "maniqa": 0.24225737154483795,
+        "brisque": 73.0625,
+        "nima": 4.028440475463867
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.24954548478126526,
+        "musiq": 41.71875,
+        "niqe": 6.092853818363185,
+        "maniqa": 0.20852835476398468,
+        "brisque": 70.25,
+        "nima": 3.903514862060547
+      },
+      "swinir_40": {
+        "clipiqa": 0.24684114754199982,
+        "musiq": 47.90625,
+        "niqe": 6.7385707231579035,
+        "maniqa": 0.2376844435930252,
+        "brisque": 65.5,
+        "nima": 3.991102457046509
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      3,
+      4,
+      1
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 30,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_011.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the smooth gradient areas of the sky and building facade, where slight blockiness disrupts the natural texture continuity.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.23979952931404114,
+        "musiq": 39.875,
+        "niqe": 6.4035844417354255,
+        "maniqa": 0.21206006407737732,
+        "brisque": 59.09375,
+        "nima": 4.014912128448486
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.22677353024482727,
+        "musiq": 45.40625,
+        "niqe": 7.733607338090155,
+        "maniqa": 0.2403590977191925,
+        "brisque": 74.4375,
+        "nima": 4.094348430633545
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.2428596466779709,
+        "musiq": 39.15625,
+        "niqe": 6.254518589319198,
+        "maniqa": 0.20994950830936432,
+        "brisque": 65.1875,
+        "nima": 4.011200904846191
+      },
+      "swinir_40": {
+        "clipiqa": 0.2371492236852646,
+        "musiq": 46.28125,
+        "niqe": 6.906539319841866,
+        "maniqa": 0.23331904411315918,
+        "brisque": 70.6875,
+        "nima": 4.061163902282715
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      1,
+      3,
+      4,
+      2
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 31,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_012.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility, particularly noticeable in the smooth gradient areas of the sky and the uniform surfaces of the building facade, where slight blockiness disrupts the natural texture.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.24927662312984467,
+        "musiq": 41.0,
+        "niqe": 6.206090610202946,
+        "maniqa": 0.2151159644126892,
+        "brisque": 68.4375,
+        "nima": 4.065817356109619
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.22308555245399475,
+        "musiq": 44.59375,
+        "niqe": 7.69472098121102,
+        "maniqa": 0.24132096767425537,
+        "brisque": 79.6875,
+        "nima": 4.1319379806518555
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.25479719042778015,
+        "musiq": 39.65625,
+        "niqe": 6.0490492119740535,
+        "maniqa": 0.21174097061157227,
+        "brisque": 69.5625,
+        "nima": 4.056972503662109
+      },
+      "swinir_40": {
+        "clipiqa": 0.23484471440315247,
+        "musiq": 45.21875,
+        "niqe": 6.694212952682825,
+        "maniqa": 0.236604705452919,
+        "brisque": 72.5,
+        "nima": 4.125091075897217
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      1,
+      3,
+      4,
+      2
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 32,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_013.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the smooth gradient areas of the sky and building facade, where the compression has caused slight blockiness and loss of fine texture detail.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.24680674076080322,
+        "musiq": 42.53125,
+        "niqe": 6.653055997264646,
+        "maniqa": 0.21252284944057465,
+        "brisque": 62.21875,
+        "nima": 4.103444576263428
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.2211873084306717,
+        "musiq": 45.09375,
+        "niqe": 7.759589371535043,
+        "maniqa": 0.24166351556777954,
+        "brisque": 79.125,
+        "nima": 4.156485080718994
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.24870805442333221,
+        "musiq": 39.03125,
+        "niqe": 6.251210820884893,
+        "maniqa": 0.2041357010602951,
+        "brisque": 55.34375,
+        "nima": 4.086895942687988
+      },
+      "swinir_40": {
+        "clipiqa": 0.23671577870845795,
+        "musiq": 46.46875,
+        "niqe": 7.0127439788766965,
+        "maniqa": 0.23158816993236542,
+        "brisque": 76.875,
+        "nima": 4.132647514343262
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      4,
+      3,
+      1
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 33,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_014.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the smooth gradient areas of the sky and the uniform surfaces of the building facade, where the compression has caused slight blockiness.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.23384229838848114,
+        "musiq": 42.5625,
+        "niqe": 6.851659163786739,
+        "maniqa": 0.2153071016073227,
+        "brisque": 62.40625,
+        "nima": 4.076713562011719
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.22165384888648987,
+        "musiq": 47.625,
+        "niqe": 7.594882808698183,
+        "maniqa": 0.24269366264343262,
+        "brisque": 79.6875,
+        "nima": 4.187240123748779
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.23543377220630646,
+        "musiq": 39.375,
+        "niqe": 6.318544158090623,
+        "maniqa": 0.20571395754814148,
+        "brisque": 53.15625,
+        "nima": 4.051985740661621
+      },
+      "swinir_40": {
+        "clipiqa": 0.23150189220905304,
+        "musiq": 46.875,
+        "niqe": 7.050680583313038,
+        "maniqa": 0.23484700918197632,
+        "brisque": 63.71875,
+        "nima": 4.0946197509765625
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 34,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_015.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the smooth gradient areas of the sky and the uniform surfaces of the building facade, where the compression has caused slight blockiness and loss of fine texture detail.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.24502459168434143,
+        "musiq": 40.53125,
+        "niqe": 6.216080985210839,
+        "maniqa": 0.21513928472995758,
+        "brisque": 62.65625,
+        "nima": 4.091506004333496
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.22590985894203186,
+        "musiq": 45.3125,
+        "niqe": 7.38939365753512,
+        "maniqa": 0.24169397354125977,
+        "brisque": 80.25,
+        "nima": 4.138447284698486
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.24982987344264984,
+        "musiq": 37.4375,
+        "niqe": 5.831397389307765,
+        "maniqa": 0.20887257158756256,
+        "brisque": 58.46875,
+        "nima": 4.087930679321289
+      },
+      "swinir_40": {
+        "clipiqa": 0.23775072395801544,
+        "musiq": 45.0625,
+        "niqe": 6.8553451563289185,
+        "maniqa": 0.23713527619838715,
+        "brisque": 68.6875,
+        "nima": 4.116545677185059
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 35,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_016.png",
+    "degradation_description": "The image exhibits noticeable blocking and grid visibility, where the smooth surfaces are divided into distinct square blocks, and there is some texture loss and detail smearing, particularly in areas with gradual color transitions.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.3335075378417969,
+        "musiq": 28.421875,
+        "niqe": 9.609575658155315,
+        "maniqa": 0.21204009652137756,
+        "brisque": 97.125,
+        "nima": 3.4915056228637695
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.3476128876209259,
+        "musiq": 32.53125,
+        "niqe": 10.060208645759433,
+        "maniqa": 0.2633070945739746,
+        "brisque": 102.25,
+        "nima": 3.51853084564209
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.33008843660354614,
+        "musiq": 26.4375,
+        "niqe": 8.988368351393799,
+        "maniqa": 0.2040969878435135,
+        "brisque": 91.0625,
+        "nima": 3.4576854705810547
+      },
+      "swinir_40": {
+        "clipiqa": 0.3404286205768585,
+        "musiq": 29.84375,
+        "niqe": 10.092640380737645,
+        "maniqa": 0.22982919216156006,
+        "brisque": 105.25,
+        "nima": 3.5490927696228027
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      1,
+      4,
+      2
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 36,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_017.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility, particularly noticeable in the smooth blue wall areas where the texture appears slightly pixelated and blocky due to compression.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.3373467028141022,
+        "musiq": 28.515625,
+        "niqe": 9.370659079784712,
+        "maniqa": 0.22239559888839722,
+        "brisque": 95.875,
+        "nima": 3.537391185760498
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.34603413939476013,
+        "musiq": 34.40625,
+        "niqe": 10.149906957844848,
+        "maniqa": 0.2755332887172699,
+        "brisque": 99.375,
+        "nima": 3.5412333011627197
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.33019134402275085,
+        "musiq": 27.265625,
+        "niqe": 8.826640256934942,
+        "maniqa": 0.21238018572330475,
+        "brisque": 92.75,
+        "nima": 3.523380994796753
+      },
+      "swinir_40": {
+        "clipiqa": 0.3378320634365082,
+        "musiq": 30.109375,
+        "niqe": 9.780534353106578,
+        "maniqa": 0.24259518086910248,
+        "brisque": 94.1875,
+        "nima": 3.5900940895080566
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      2,
+      4,
+      1
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 37,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_018.png",
+    "degradation_description": "The image exhibits noticeable blocking and grid visibility, where the smooth surfaces are segmented into distinct square blocks, accompanied by slight texture loss and detail smearing that reduces overall sharpness.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.33250150084495544,
+        "musiq": 30.8125,
+        "niqe": 9.20195874398017,
+        "maniqa": 0.21597522497177124,
+        "brisque": 95.6875,
+        "nima": 3.524393081665039
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.32096418738365173,
+        "musiq": 37.71875,
+        "niqe": 10.682406334542337,
+        "maniqa": 0.2692420780658722,
+        "brisque": 98.375,
+        "nima": 3.6233761310577393
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.3327803313732147,
+        "musiq": 30.46875,
+        "niqe": 8.86734653813334,
+        "maniqa": 0.2112407088279724,
+        "brisque": 95.5625,
+        "nima": 3.5134551525115967
+      },
+      "swinir_40": {
+        "clipiqa": 0.3236112594604492,
+        "musiq": 32.25,
+        "niqe": 10.141587545218515,
+        "maniqa": 0.23473015427589417,
+        "brisque": 107.0,
+        "nima": 3.6127371788024902
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      1,
+      3,
+      4
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 38,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_019.png",
+    "degradation_description": "The image exhibits subtle blocking artifacts where the smooth gradient of the blue wall is disrupted by faint, grid-like boundaries between compression blocks, resulting in a slight loss of fine texture detail.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.3165604770183563,
+        "musiq": 31.3125,
+        "niqe": 9.326895426302512,
+        "maniqa": 0.21767541766166687,
+        "brisque": 104.3125,
+        "nima": 3.492638111114502
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.32544219493865967,
+        "musiq": 36.84375,
+        "niqe": 10.86517813660495,
+        "maniqa": 0.27241626381874084,
+        "brisque": 102.3125,
+        "nima": 3.541491985321045
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.3200521171092987,
+        "musiq": 31.03125,
+        "niqe": 9.102889977698794,
+        "maniqa": 0.21313327550888062,
+        "brisque": 93.75,
+        "nima": 3.4799349308013916
+      },
+      "swinir_40": {
+        "clipiqa": 0.3241208493709564,
+        "musiq": 33.84375,
+        "niqe": 10.245601439287636,
+        "maniqa": 0.2415492683649063,
+        "brisque": 105.3125,
+        "nima": 3.5753562450408936
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      4,
+      1,
+      3,
+      2
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 39,
+    "degradation_type": "jpeg compression artifact",
+    "tools_name": [
+      "fbcnn_blind",
+      "fbcnn_5",
+      "fbcnn_90",
+      "swinir_40"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_020.png",
+    "degradation_description": "The image exhibits subtle blocking and grid visibility artifacts, particularly noticeable in the uniform areas of the building's facade, where slight blockiness disrupts the smooth texture.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "fbcnn_blind": {
+        "clipiqa": 0.20783567428588867,
+        "musiq": 21.734375,
+        "niqe": 6.669419405708141,
+        "maniqa": 0.1388649195432663,
+        "brisque": 53.40625,
+        "nima": 3.0718674659729004
+      },
+      "fbcnn_5": {
+        "clipiqa": 0.21892547607421875,
+        "musiq": 36.125,
+        "niqe": 8.153407139728197,
+        "maniqa": 0.1710488647222519,
+        "brisque": 53.28125,
+        "nima": 3.4683003425598145
+      },
+      "fbcnn_90": {
+        "clipiqa": 0.19924895465373993,
+        "musiq": 20.65625,
+        "niqe": 6.384414024305451,
+        "maniqa": 0.12932367622852325,
+        "brisque": 43.53125,
+        "nima": 3.048776149749756
+      },
+      "swinir_40": {
+        "clipiqa": 0.2140902727842331,
+        "musiq": 23.890625,
+        "niqe": 7.132773325973861,
+        "maniqa": 0.16011792421340942,
+        "brisque": 55.28125,
+        "nima": 3.139096260070801
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      1,
+      4,
+      2
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  }
+]

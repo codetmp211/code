@@ -1,0 +1,73 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "noise",
+    "dimension": "perception",
+    "degradation_pattern": "Pervasive, high-frequency luminance noise characterized by dense, granular, or speckle textures that significantly obscure fine details and reduce overall surface smoothness and clarity across the entire visual field.",
+    "ranking": {
+      "xrestormer": 1,
+      "swinir_15": 2,
+      "swinir_50": 3,
+      "restormer": 4,
+      "mprnet": 5,
+      "maxim": 6
+    },
+    "related_trajectory_ids": [
+      20,
+      23,
+      24,
+      27,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "count": 2
+  },
+  {
+    "exp_id": 1,
+    "degradation_type": "noise",
+    "dimension": "perception",
+    "degradation_pattern": "Subtle, fine-grained luminance noise creating a soft or slight grainy texture that minimally obscures underlying details, particularly affecting mid-tones, shadows, or darker regions with low spatial correlation and minimal chromatic interference.",
+    "ranking": {
+      "swinir_15": 1,
+      "xrestormer": 2,
+      "restormer": 3,
+      "swinir_50": 4,
+      "mprnet": 5,
+      "maxim": 6
+    },
+    "related_trajectory_ids": [
+      21,
+      22,
+      25,
+      26,
+      28
+    ],
+    "count": 1
+  },
+  {
+    "exp_id": 2,
+    "degradation_type": "noise",
+    "dimension": "perception",
+    "degradation_pattern": "A subtle, fine-grained luminance noise that creates slight graininess particularly noticeable in the mid-tones without significantly obscuring details, maintaining overall image clarity.",
+    "ranking": {
+      "restormer": 1,
+      "mprnet": 2,
+      "swinir_15": 3,
+      "maxim": 4,
+      "swinir_50": 5,
+      "xrestormer": 6
+    },
+    "related_trajectory_ids": [
+      39
+    ],
+    "count": 1
+  }
+]

@@ -1,0 +1,4482 @@
+[
+  {
+    "task_id": 0,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_001.png",
+    "degradation_description": "The image exhibits pronounced directional streaking that uniformly distorts all geometric structures, causing distinct edge ghosting and significant highlight streaking across the entire frame.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.2266845703125,
+        "dists": 0.10936927795410156,
+        "psnr": 19.790725708007812,
+        "ssim": 0.6880951836399162
+      },
+      "mprnet": {
+        "lpips": 0.232177734375,
+        "dists": 0.11849021911621094,
+        "psnr": 19.771806716918945,
+        "ssim": 0.6880310737565352
+      },
+      "maxim": {
+        "lpips": 0.2626953125,
+        "dists": 0.139193594455719,
+        "psnr": 20.318939208984375,
+        "ssim": 0.7078055761504145
+      },
+      "xrestormer": {
+        "lpips": 0.2249755859375,
+        "dists": 0.10922712087631226,
+        "psnr": 19.782814025878906,
+        "ssim": 0.688295127432539
+      },
+      "nafnet": {
+        "lpips": 0.2293701171875,
+        "dists": 0.10696130990982056,
+        "psnr": 19.85124397277832,
+        "ssim": 0.6886269609767393
+      },
+      "EVSSM": {
+        "lpips": 0.262939453125,
+        "dists": 0.12370586395263672,
+        "psnr": 19.5789794921875,
+        "ssim": 0.6912178975529131
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      5,
+      4,
+      2,
+      1,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 1,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_002.png",
+    "degradation_description": "The image exhibits pronounced directional motion blur that creates significant spatial uniformity across the entire frame, resulting in severe edge ghosting and extensive highlight streaking that distorts the original geometry of the scene.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.206298828125,
+        "dists": 0.10092729330062866,
+        "psnr": 19.505245208740234,
+        "ssim": 0.6675803371584198
+      },
+      "mprnet": {
+        "lpips": 0.212646484375,
+        "dists": 0.10964274406433105,
+        "psnr": 19.484050750732422,
+        "ssim": 0.6682101662246392
+      },
+      "maxim": {
+        "lpips": 0.2340087890625,
+        "dists": 0.12322300672531128,
+        "psnr": 19.824426651000977,
+        "ssim": 0.6829385510055628
+      },
+      "xrestormer": {
+        "lpips": 0.20458984375,
+        "dists": 0.10073351860046387,
+        "psnr": 19.50057601928711,
+        "ssim": 0.6673775162281643
+      },
+      "nafnet": {
+        "lpips": 0.21142578125,
+        "dists": 0.10078585147857666,
+        "psnr": 19.568593978881836,
+        "ssim": 0.6689341502818309
+      },
+      "EVSSM": {
+        "lpips": 0.22802734375,
+        "dists": 0.10799342393875122,
+        "psnr": 19.400836944580078,
+        "ssim": 0.6683026530685033
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      5,
+      4,
+      2,
+      1,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 2,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_003.png",
+    "degradation_description": "The image exhibits pronounced directional motion blur that creates significant spatial uniformity across the entire frame, resulting in severe edge ghosting and extensive highlight streaking that distorts the original geometry of the scene.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.2056884765625,
+        "dists": 0.09512710571289062,
+        "psnr": 19.60382843017578,
+        "ssim": 0.6798748613426506
+      },
+      "mprnet": {
+        "lpips": 0.215576171875,
+        "dists": 0.10410928726196289,
+        "psnr": 19.621347427368164,
+        "ssim": 0.681211762367002
+      },
+      "maxim": {
+        "lpips": 0.23828125,
+        "dists": 0.11882871389389038,
+        "psnr": 20.003393173217773,
+        "ssim": 0.6923771953707869
+      },
+      "xrestormer": {
+        "lpips": 0.2049560546875,
+        "dists": 0.09448415040969849,
+        "psnr": 19.60763168334961,
+        "ssim": 0.6788171599922609
+      },
+      "nafnet": {
+        "lpips": 0.212158203125,
+        "dists": 0.09702837467193604,
+        "psnr": 19.640583038330078,
+        "ssim": 0.6812628295064996
+      },
+      "EVSSM": {
+        "lpips": 0.2174072265625,
+        "dists": 0.09687387943267822,
+        "psnr": 19.416358947753906,
+        "ssim": 0.6765906115270376
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      5,
+      4,
+      1,
+      2,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 3,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_004.png",
+    "degradation_description": "The image exhibits pronounced directional streaking that distorts the geometry of all objects, creating significant edge ghosting and blurring the boundaries between foreground and background elements.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.2017822265625,
+        "dists": 0.0903846025466919,
+        "psnr": 20.062606811523438,
+        "ssim": 0.6927775671207826
+      },
+      "mprnet": {
+        "lpips": 0.207763671875,
+        "dists": 0.0962175726890564,
+        "psnr": 20.076576232910156,
+        "ssim": 0.6923248332087002
+      },
+      "maxim": {
+        "lpips": 0.2381591796875,
+        "dists": 0.11558568477630615,
+        "psnr": 20.568500518798828,
+        "ssim": 0.7121596148814484
+      },
+      "xrestormer": {
+        "lpips": 0.199462890625,
+        "dists": 0.09098982810974121,
+        "psnr": 20.095897674560547,
+        "ssim": 0.6928898195630647
+      },
+      "nafnet": {
+        "lpips": 0.2037353515625,
+        "dists": 0.08857238292694092,
+        "psnr": 20.186254501342773,
+        "ssim": 0.6944171759291116
+      },
+      "EVSSM": {
+        "lpips": 0.23974609375,
+        "dists": 0.10950648784637451,
+        "psnr": 19.822416305541992,
+        "ssim": 0.7006106970494284
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 4,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_005.png",
+    "degradation_description": "The image exhibits a subtle directional smearing effect that slightly softens the fine details of the vertical structures, creating a faint ghosting along the edges of the objects without significantly distorting their overall geometry.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.100830078125,
+        "dists": 0.04437363147735596,
+        "psnr": 22.967041015625,
+        "ssim": 0.7853214372266678
+      },
+      "mprnet": {
+        "lpips": 0.09820556640625,
+        "dists": 0.04430210590362549,
+        "psnr": 22.981632232666016,
+        "ssim": 0.7857284621890314
+      },
+      "maxim": {
+        "lpips": 0.13134765625,
+        "dists": 0.060395777225494385,
+        "psnr": 21.721399307250977,
+        "ssim": 0.7893292896740285
+      },
+      "xrestormer": {
+        "lpips": 0.09912109375,
+        "dists": 0.04405796527862549,
+        "psnr": 22.93090057373047,
+        "ssim": 0.7854493646282582
+      },
+      "nafnet": {
+        "lpips": 0.1038818359375,
+        "dists": 0.046292126178741455,
+        "psnr": 23.075716018676758,
+        "ssim": 0.789394821830801
+      },
+      "EVSSM": {
+        "lpips": 0.1112060546875,
+        "dists": 0.05394619703292847,
+        "psnr": 22.733335494995117,
+        "ssim": 0.7833867878599606
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      4,
+      1,
+      5,
+      3,
+      2,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 5,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_006.png",
+    "degradation_description": "The image exhibits directional motion blur that creates a slight streaking effect across the entire frame, reducing the sharpness of fine details and causing a softening of edges throughout the scene.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.0947265625,
+        "dists": 0.03978830575942993,
+        "psnr": 22.754085540771484,
+        "ssim": 0.7791828303638757
+      },
+      "mprnet": {
+        "lpips": 0.09295654296875,
+        "dists": 0.038156986236572266,
+        "psnr": 22.732913970947266,
+        "ssim": 0.7788806373115412
+      },
+      "maxim": {
+        "lpips": 0.1253662109375,
+        "dists": 0.056497395038604736,
+        "psnr": 21.644487380981445,
+        "ssim": 0.787919225303606
+      },
+      "xrestormer": {
+        "lpips": 0.0924072265625,
+        "dists": 0.03725254535675049,
+        "psnr": 22.70699691772461,
+        "ssim": 0.7777028923044266
+      },
+      "nafnet": {
+        "lpips": 0.0960693359375,
+        "dists": 0.03923565149307251,
+        "psnr": 22.821617126464844,
+        "ssim": 0.7802353893506997
+      },
+      "EVSSM": {
+        "lpips": 0.09857177734375,
+        "dists": 0.04408293962478638,
+        "psnr": 22.591245651245117,
+        "ssim": 0.7763571560313011
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      4,
+      2,
+      5,
+      3,
+      1,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 6,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_007.png",
+    "degradation_description": "The image exhibits a subtle directional smearing effect that slightly softens the fine details of the vertical structures, creating a faint ghosting along the edges of the objects without significantly distorting their overall geometry.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.1097412109375,
+        "dists": 0.049696922302246094,
+        "psnr": 22.63822364807129,
+        "ssim": 0.776044058522459
+      },
+      "mprnet": {
+        "lpips": 0.11163330078125,
+        "dists": 0.04972350597381592,
+        "psnr": 22.673065185546875,
+        "ssim": 0.7770708301819719
+      },
+      "maxim": {
+        "lpips": 0.1395263671875,
+        "dists": 0.06551855802536011,
+        "psnr": 21.626720428466797,
+        "ssim": 0.785093355092195
+      },
+      "xrestormer": {
+        "lpips": 0.1092529296875,
+        "dists": 0.050039470195770264,
+        "psnr": 22.624916076660156,
+        "ssim": 0.7760404255646531
+      },
+      "nafnet": {
+        "lpips": 0.11322021484375,
+        "dists": 0.050409913063049316,
+        "psnr": 22.704315185546875,
+        "ssim": 0.7785563545025281
+      },
+      "EVSSM": {
+        "lpips": 0.1253662109375,
+        "dists": 0.06054997444152832,
+        "psnr": 22.362977981567383,
+        "ssim": 0.772878599108173
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      2,
+      5,
+      4,
+      3,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 7,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_008.png",
+    "degradation_description": "The image exhibits a subtle directional smearing effect that slightly softens the fine geometric details and edges of the objects, creating a faint ghosting appearance without significant distortion.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.09161376953125,
+        "dists": 0.04270017147064209,
+        "psnr": 24.18558120727539,
+        "ssim": 0.813547430752573
+      },
+      "mprnet": {
+        "lpips": 0.0902099609375,
+        "dists": 0.042167067527770996,
+        "psnr": 24.151269912719727,
+        "ssim": 0.8131948866389156
+      },
+      "maxim": {
+        "lpips": 0.121826171875,
+        "dists": 0.05464661121368408,
+        "psnr": 22.43191909790039,
+        "ssim": 0.8064656310908077
+      },
+      "xrestormer": {
+        "lpips": 0.0909423828125,
+        "dists": 0.041586101055145264,
+        "psnr": 24.125268936157227,
+        "ssim": 0.814748176006996
+      },
+      "nafnet": {
+        "lpips": 0.09173583984375,
+        "dists": 0.04259133338928223,
+        "psnr": 24.252296447753906,
+        "ssim": 0.8173668197597005
+      },
+      "EVSSM": {
+        "lpips": 0.1090087890625,
+        "dists": 0.05261635780334473,
+        "psnr": 23.864864349365234,
+        "ssim": 0.8107521733270839
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      4,
+      3,
+      6,
+      1,
+      2,
+      5
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 8,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_009.png",
+    "degradation_description": "The image exhibits a subtle directional smearing effect that slightly softens the fine details and edges of the objects, creating a faint ghosting appearance without significant distortion.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.095703125,
+        "dists": 0.03889870643615723,
+        "psnr": 22.60552406311035,
+        "ssim": 0.773494726828814
+      },
+      "mprnet": {
+        "lpips": 0.09368896484375,
+        "dists": 0.037635624408721924,
+        "psnr": 22.581558227539062,
+        "ssim": 0.7733674106373329
+      },
+      "maxim": {
+        "lpips": 0.1256103515625,
+        "dists": 0.05574685335159302,
+        "psnr": 21.680707931518555,
+        "ssim": 0.7807807375276801
+      },
+      "xrestormer": {
+        "lpips": 0.0921630859375,
+        "dists": 0.03567147254943848,
+        "psnr": 22.563823699951172,
+        "ssim": 0.7729611550564818
+      },
+      "nafnet": {
+        "lpips": 0.09564208984375,
+        "dists": 0.03741276264190674,
+        "psnr": 22.64886474609375,
+        "ssim": 0.7742925198963363
+      },
+      "EVSSM": {
+        "lpips": 0.0986328125,
+        "dists": 0.039922237396240234,
+        "psnr": 22.378204345703125,
+        "ssim": 0.7690758247033584
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      4,
+      3,
+      5,
+      2,
+      1,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 9,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_010.png",
+    "degradation_description": "The image exhibits a directional smearing effect that causes a loss of fine detail and introduces a ghosting appearance across the entire frame, particularly noticeable in the text and structural lines.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.11248779296875,
+        "dists": 0.05505406856536865,
+        "psnr": 24.807340621948242,
+        "ssim": 0.7523302322681952
+      },
+      "mprnet": {
+        "lpips": 0.11077880859375,
+        "dists": 0.052309513092041016,
+        "psnr": 24.80522918701172,
+        "ssim": 0.7535382050137854
+      },
+      "maxim": {
+        "lpips": 0.142578125,
+        "dists": 0.07264852523803711,
+        "psnr": 22.77448844909668,
+        "ssim": 0.7570543579778762
+      },
+      "xrestormer": {
+        "lpips": 0.11151123046875,
+        "dists": 0.05498504638671875,
+        "psnr": 24.86246109008789,
+        "ssim": 0.7515134203828246
+      },
+      "nafnet": {
+        "lpips": 0.120361328125,
+        "dists": 0.05789172649383545,
+        "psnr": 24.93745994567871,
+        "ssim": 0.7556331812849
+      },
+      "EVSSM": {
+        "lpips": 0.140869140625,
+        "dists": 0.06396752595901489,
+        "psnr": 24.251527786254883,
+        "ssim": 0.7599563019817298
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      4,
+      1,
+      6,
+      2,
+      3,
+      5
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 10,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_011.png",
+    "degradation_description": "The image exhibits a directional smearing effect that causes a loss of fine detail and introduces a slight ghosting appearance across the entire frame, particularly noticeable in the text and structural lines.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.108154296875,
+        "dists": 0.05132538080215454,
+        "psnr": 24.67365264892578,
+        "ssim": 0.7456182811030293
+      },
+      "mprnet": {
+        "lpips": 0.1065673828125,
+        "dists": 0.04995071887969971,
+        "psnr": 24.718151092529297,
+        "ssim": 0.7479271342198276
+      },
+      "maxim": {
+        "lpips": 0.1370849609375,
+        "dists": 0.06920850276947021,
+        "psnr": 22.829368591308594,
+        "ssim": 0.7547556309946555
+      },
+      "xrestormer": {
+        "lpips": 0.107666015625,
+        "dists": 0.05148768424987793,
+        "psnr": 24.73088264465332,
+        "ssim": 0.7446415132623174
+      },
+      "nafnet": {
+        "lpips": 0.11407470703125,
+        "dists": 0.05342221260070801,
+        "psnr": 24.80159568786621,
+        "ssim": 0.7477057720723302
+      },
+      "EVSSM": {
+        "lpips": 0.12347412109375,
+        "dists": 0.05561840534210205,
+        "psnr": 24.36539077758789,
+        "ssim": 0.7455129086828256
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      1,
+      5,
+      4,
+      2,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 11,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_012.png",
+    "degradation_description": "The image exhibits directional motion blur that creates a consistent horizontal streaking effect across the entire frame, resulting in a loss of fine detail and a smeared appearance of all geometric structures and text.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.1099853515625,
+        "dists": 0.055800557136535645,
+        "psnr": 24.5084285736084,
+        "ssim": 0.7412826216692971
+      },
+      "mprnet": {
+        "lpips": 0.1072998046875,
+        "dists": 0.05104207992553711,
+        "psnr": 24.495174407958984,
+        "ssim": 0.7416906626886636
+      },
+      "maxim": {
+        "lpips": 0.1396484375,
+        "dists": 0.07351022958755493,
+        "psnr": 22.64960289001465,
+        "ssim": 0.7511665966440283
+      },
+      "xrestormer": {
+        "lpips": 0.108154296875,
+        "dists": 0.052955031394958496,
+        "psnr": 24.55025863647461,
+        "ssim": 0.7410048468651312
+      },
+      "nafnet": {
+        "lpips": 0.11492919921875,
+        "dists": 0.05683702230453491,
+        "psnr": 24.628389358520508,
+        "ssim": 0.744408261420201
+      },
+      "EVSSM": {
+        "lpips": 0.12939453125,
+        "dists": 0.05739325284957886,
+        "psnr": 24.256744384765625,
+        "ssim": 0.7476517773130603
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      4,
+      1,
+      6,
+      2,
+      3,
+      5
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 12,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_013.png",
+    "degradation_description": "The image exhibits directional motion blur that creates a distinct horizontal streaking effect across the entire frame, causing a loss of fine detail and softening the boundaries of all geometric shapes and text elements.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.11309814453125,
+        "dists": 0.06050467491149902,
+        "psnr": 24.987985610961914,
+        "ssim": 0.7529377838509892
+      },
+      "mprnet": {
+        "lpips": 0.11810302734375,
+        "dists": 0.061369478702545166,
+        "psnr": 25.056415557861328,
+        "ssim": 0.7597385802612089
+      },
+      "maxim": {
+        "lpips": 0.1513671875,
+        "dists": 0.08387333154678345,
+        "psnr": 22.759422302246094,
+        "ssim": 0.7517274628405936
+      },
+      "xrestormer": {
+        "lpips": 0.1153564453125,
+        "dists": 0.06113088130950928,
+        "psnr": 25.03354263305664,
+        "ssim": 0.7538696814878793
+      },
+      "nafnet": {
+        "lpips": 0.1234130859375,
+        "dists": 0.0636257529258728,
+        "psnr": 25.104000091552734,
+        "ssim": 0.7581523765087547
+      },
+      "EVSSM": {
+        "lpips": 0.153564453125,
+        "dists": 0.07187235355377197,
+        "psnr": 24.2567138671875,
+        "ssim": 0.7629041922337646
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      1,
+      6,
+      3,
+      4,
+      5
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 13,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_014.png",
+    "degradation_description": "The image exhibits directional motion blur that creates a consistent horizontal streaking effect across the entire frame, resulting in a loss of fine detail and a smeared appearance of all geometric structures.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.1273193359375,
+        "dists": 0.0617939829826355,
+        "psnr": 24.427396774291992,
+        "ssim": 0.7365409664666606
+      },
+      "mprnet": {
+        "lpips": 0.131103515625,
+        "dists": 0.06518757343292236,
+        "psnr": 24.489952087402344,
+        "ssim": 0.7408299546150733
+      },
+      "maxim": {
+        "lpips": 0.160400390625,
+        "dists": 0.08510130643844604,
+        "psnr": 22.901142120361328,
+        "ssim": 0.7542919092353709
+      },
+      "xrestormer": {
+        "lpips": 0.1285400390625,
+        "dists": 0.06408226490020752,
+        "psnr": 24.51019287109375,
+        "ssim": 0.738335754695998
+      },
+      "nafnet": {
+        "lpips": 0.136962890625,
+        "dists": 0.06926965713500977,
+        "psnr": 24.545822143554688,
+        "ssim": 0.7391549135625646
+      },
+      "EVSSM": {
+        "lpips": 0.174072265625,
+        "dists": 0.077095627784729,
+        "psnr": 23.6973934173584,
+        "ssim": 0.7533402716385195
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      2,
+      3,
+      5,
+      1,
+      4,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 14,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_015.png",
+    "degradation_description": "The image exhibits directional motion blur that creates a distinct horizontal streaking effect across the entire frame, resulting in a loss of fine detail and a smeared appearance of all geometric structures and text.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.1175537109375,
+        "dists": 0.059410035610198975,
+        "psnr": 24.236331939697266,
+        "ssim": 0.7352369184917874
+      },
+      "mprnet": {
+        "lpips": 0.1175537109375,
+        "dists": 0.05819505453109741,
+        "psnr": 24.264963150024414,
+        "ssim": 0.7371391201425643
+      },
+      "maxim": {
+        "lpips": 0.14794921875,
+        "dists": 0.07639092206954956,
+        "psnr": 22.473472595214844,
+        "ssim": 0.7494610703538938
+      },
+      "xrestormer": {
+        "lpips": 0.11676025390625,
+        "dists": 0.05749678611755371,
+        "psnr": 24.28543472290039,
+        "ssim": 0.7343607373641501
+      },
+      "nafnet": {
+        "lpips": 0.124755859375,
+        "dists": 0.059993743896484375,
+        "psnr": 24.376819610595703,
+        "ssim": 0.7394600353248107
+      },
+      "EVSSM": {
+        "lpips": 0.1512451171875,
+        "dists": 0.06642252206802368,
+        "psnr": 23.760175704956055,
+        "ssim": 0.7464134308518967
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      4,
+      2,
+      5,
+      1,
+      3,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 15,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_016.png",
+    "degradation_description": "The image exhibits significant directional motion blur that creates a uniform streaking effect across the entire frame, causing all geometric structures and text to lose sharpness and appear smeared along the axis of movement.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.25,
+        "dists": 0.13562846183776855,
+        "psnr": 28.340967178344727,
+        "ssim": 0.8884038917089025
+      },
+      "mprnet": {
+        "lpips": 0.2392578125,
+        "dists": 0.12941902875900269,
+        "psnr": 28.28844451904297,
+        "ssim": 0.8851533974296846
+      },
+      "maxim": {
+        "lpips": 0.317138671875,
+        "dists": 0.17518317699432373,
+        "psnr": 26.173830032348633,
+        "ssim": 0.8910384670703047
+      },
+      "xrestormer": {
+        "lpips": 0.25537109375,
+        "dists": 0.14173120260238647,
+        "psnr": 28.42024040222168,
+        "ssim": 0.8910641280391149
+      },
+      "nafnet": {
+        "lpips": 0.249755859375,
+        "dists": 0.1351388692855835,
+        "psnr": 28.41419219970703,
+        "ssim": 0.8872899135203525
+      },
+      "EVSSM": {
+        "lpips": 0.267822265625,
+        "dists": 0.1524651050567627,
+        "psnr": 28.423728942871094,
+        "ssim": 0.8923858410243346
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      5,
+      4,
+      6,
+      1,
+      2,
+      3
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 16,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_017.png",
+    "degradation_description": "The image exhibits significant directional motion blur that creates a uniform horizontal streaking effect across the entire frame, causing distinct geometric shapes and text to lose their sharp boundaries and appear smeared.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.255859375,
+        "dists": 0.12663429975509644,
+        "psnr": 28.154104232788086,
+        "ssim": 0.88413436469543
+      },
+      "mprnet": {
+        "lpips": 0.2432861328125,
+        "dists": 0.1283603310585022,
+        "psnr": 28.0809326171875,
+        "ssim": 0.8818274149768155
+      },
+      "maxim": {
+        "lpips": 0.322265625,
+        "dists": 0.16951227188110352,
+        "psnr": 26.146255493164062,
+        "ssim": 0.8902049471815509
+      },
+      "xrestormer": {
+        "lpips": 0.258544921875,
+        "dists": 0.13389748334884644,
+        "psnr": 28.274879455566406,
+        "ssim": 0.887705947502742
+      },
+      "nafnet": {
+        "lpips": 0.250732421875,
+        "dists": 0.13004112243652344,
+        "psnr": 28.253185272216797,
+        "ssim": 0.8835089980294412
+      },
+      "EVSSM": {
+        "lpips": 0.26708984375,
+        "dists": 0.1441834568977356,
+        "psnr": 28.21974754333496,
+        "ssim": 0.8895914109387119
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      1,
+      4,
+      6,
+      2,
+      3,
+      5
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 17,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_018.png",
+    "degradation_description": "The image exhibits significant directional motion blur that creates a uniform horizontal streaking effect across all geometric structures, resulting in severe edge ghosting and a complete loss of fine detail.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.2191162109375,
+        "dists": 0.1064990758895874,
+        "psnr": 28.503751754760742,
+        "ssim": 0.8916445700914457
+      },
+      "mprnet": {
+        "lpips": 0.203125,
+        "dists": 0.10211312770843506,
+        "psnr": 28.438623428344727,
+        "ssim": 0.8902983161825054
+      },
+      "maxim": {
+        "lpips": 0.284423828125,
+        "dists": 0.14345264434814453,
+        "psnr": 26.371068954467773,
+        "ssim": 0.8967769818973199
+      },
+      "xrestormer": {
+        "lpips": 0.2294921875,
+        "dists": 0.11019611358642578,
+        "psnr": 28.57955551147461,
+        "ssim": 0.8962764645063951
+      },
+      "nafnet": {
+        "lpips": 0.2139892578125,
+        "dists": 0.10879397392272949,
+        "psnr": 28.574893951416016,
+        "ssim": 0.8919818190405854
+      },
+      "EVSSM": {
+        "lpips": 0.23291015625,
+        "dists": 0.11342883110046387,
+        "psnr": 28.49765396118164,
+        "ssim": 0.8959044512015795
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      4,
+      6,
+      1,
+      2,
+      5
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 18,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_019.png",
+    "degradation_description": "The image exhibits significant directional motion blur that creates a uniform horizontal streaking effect across the entire frame, causing all geometric structures and text to lose sharpness and appear smeared.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.2413330078125,
+        "dists": 0.12276887893676758,
+        "psnr": 28.65343475341797,
+        "ssim": 0.8919472466657543
+      },
+      "mprnet": {
+        "lpips": 0.2247314453125,
+        "dists": 0.11814826726913452,
+        "psnr": 28.615577697753906,
+        "ssim": 0.8903614718028866
+      },
+      "maxim": {
+        "lpips": 0.30810546875,
+        "dists": 0.1587047576904297,
+        "psnr": 26.305124282836914,
+        "ssim": 0.8957952671963297
+      },
+      "xrestormer": {
+        "lpips": 0.2474365234375,
+        "dists": 0.12488687038421631,
+        "psnr": 28.711341857910156,
+        "ssim": 0.8960804659474388
+      },
+      "nafnet": {
+        "lpips": 0.2349853515625,
+        "dists": 0.1227303147315979,
+        "psnr": 28.76152801513672,
+        "ssim": 0.8924089524130406
+      },
+      "EVSSM": {
+        "lpips": 0.256103515625,
+        "dists": 0.13046276569366455,
+        "psnr": 28.703067779541016,
+        "ssim": 0.8966414615593716
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      5,
+      3,
+      6,
+      2,
+      1,
+      4
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 19,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_020.png",
+    "degradation_description": "The image exhibits pronounced directional streaking that significantly distorts the geometry of all objects, creating a uniform spatial blur where distinct edges are replaced by elongated ghosting artifacts and smeared highlights.",
+    "fidelity_scores": {
+      "restormer": {
+        "lpips": 0.283203125,
+        "dists": 0.11999654769897461,
+        "psnr": 16.622488021850586,
+        "ssim": 0.4015619045304345
+      },
+      "mprnet": {
+        "lpips": 0.294921875,
+        "dists": 0.13303738832473755,
+        "psnr": 16.713499069213867,
+        "ssim": 0.4108702350984519
+      },
+      "maxim": {
+        "lpips": 0.330322265625,
+        "dists": 0.14640283584594727,
+        "psnr": 16.66429901123047,
+        "ssim": 0.4285949308530233
+      },
+      "xrestormer": {
+        "lpips": 0.28564453125,
+        "dists": 0.126193106174469,
+        "psnr": 16.646305084228516,
+        "ssim": 0.4034482578623062
+      },
+      "nafnet": {
+        "lpips": 0.310302734375,
+        "dists": 0.14194732904434204,
+        "psnr": 16.82614517211914,
+        "ssim": 0.4165414594984825
+      },
+      "EVSSM": {
+        "lpips": 0.34521484375,
+        "dists": 0.164309561252594,
+        "psnr": 16.722017288208008,
+        "ssim": 0.41315480331805593
+      }
+    },
+    "perception_scores": {},
+    "fidelity_scores_ranking": [
+      3,
+      2,
+      5,
+      4,
+      1,
+      6
+    ],
+    "perception_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "fidelity"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 20,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_001.png",
+    "degradation_description": "The image exhibits pronounced directional streaking that significantly distorts the geometry of all objects, creating a uniform smear across the entire frame that obscures fine details and merges distinct elements into continuous lines.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.18582764267921448,
+        "musiq": 45.03125,
+        "niqe": 6.113338141885362,
+        "maniqa": 0.22683599591255188,
+        "brisque": 62.96875,
+        "nima": 4.636077404022217
+      },
+      "mprnet": {
+        "clipiqa": 0.18983502686023712,
+        "musiq": 45.03125,
+        "niqe": 5.977912146722913,
+        "maniqa": 0.23105962574481964,
+        "brisque": 62.34375,
+        "nima": 4.64781379699707
+      },
+      "maxim": {
+        "clipiqa": 0.21975679695606232,
+        "musiq": 37.6875,
+        "niqe": 6.8205514656302855,
+        "maniqa": 0.2033705860376358,
+        "brisque": 56.53125,
+        "nima": 4.615554332733154
+      },
+      "xrestormer": {
+        "clipiqa": 0.18015705049037933,
+        "musiq": 45.34375,
+        "niqe": 5.92657675118192,
+        "maniqa": 0.23133502900600433,
+        "brisque": 57.21875,
+        "nima": 4.679553508758545
+      },
+      "nafnet": {
+        "clipiqa": 0.17120210826396942,
+        "musiq": 45.15625,
+        "niqe": 5.63526277981493,
+        "maniqa": 0.22743265330791473,
+        "brisque": 59.46875,
+        "nima": 4.600968360900879
+      },
+      "EVSSM": {
+        "clipiqa": 0.16870181262493134,
+        "musiq": 45.6875,
+        "niqe": 6.04327261882478,
+        "maniqa": 0.20937737822532654,
+        "brisque": 54.40625,
+        "nima": 4.670344352722168
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      6,
+      3,
+      5,
+      1,
+      4,
+      2
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 21,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_002.png",
+    "degradation_description": "The image exhibits pronounced directional streaking that distorts the geometry of all objects, creating significant edge ghosting and blurring the boundaries between foreground and background elements.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.1960878223180771,
+        "musiq": 51.71875,
+        "niqe": 6.14906703284672,
+        "maniqa": 0.25694072246551514,
+        "brisque": 59.78125,
+        "nima": 4.689255714416504
+      },
+      "mprnet": {
+        "clipiqa": 0.19691447913646698,
+        "musiq": 51.09375,
+        "niqe": 6.062472155432726,
+        "maniqa": 0.25468209385871887,
+        "brisque": 63.59375,
+        "nima": 4.639597415924072
+      },
+      "maxim": {
+        "clipiqa": 0.2375405877828598,
+        "musiq": 46.1875,
+        "niqe": 6.498096425638955,
+        "maniqa": 0.23442251980304718,
+        "brisque": 56.90625,
+        "nima": 4.777875900268555
+      },
+      "xrestormer": {
+        "clipiqa": 0.20271149277687073,
+        "musiq": 53.34375,
+        "niqe": 6.044045508643814,
+        "maniqa": 0.2625593841075897,
+        "brisque": 60.78125,
+        "nima": 4.712173938751221
+      },
+      "nafnet": {
+        "clipiqa": 0.19206801056861877,
+        "musiq": 51.125,
+        "niqe": 5.968161302812404,
+        "maniqa": 0.2555350959300995,
+        "brisque": 60.40625,
+        "nima": 4.698740005493164
+      },
+      "EVSSM": {
+        "clipiqa": 0.2075832337141037,
+        "musiq": 53.53125,
+        "niqe": 5.762208256243342,
+        "maniqa": 0.25320473313331604,
+        "brisque": 52.78125,
+        "nima": 4.780975341796875
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      6,
+      4,
+      2,
+      5,
+      1
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 22,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_003.png",
+    "degradation_description": "The image exhibits pronounced directional streaking that distorts the geometry of all objects, creating significant edge ghosting and blurring the boundaries between foreground and background elements.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.20112095773220062,
+        "musiq": 46.125,
+        "niqe": 6.291642486883506,
+        "maniqa": 0.25807642936706543,
+        "brisque": 61.28125,
+        "nima": 4.6152777671813965
+      },
+      "mprnet": {
+        "clipiqa": 0.19039596617221832,
+        "musiq": 44.3125,
+        "niqe": 6.1794546391466465,
+        "maniqa": 0.24661952257156372,
+        "brisque": 64.625,
+        "nima": 4.5625762939453125
+      },
+      "maxim": {
+        "clipiqa": 0.23089230060577393,
+        "musiq": 41.03125,
+        "niqe": 6.574080380399673,
+        "maniqa": 0.2264750897884369,
+        "brisque": 66.4375,
+        "nima": 4.64798641204834
+      },
+      "xrestormer": {
+        "clipiqa": 0.19580335915088654,
+        "musiq": 48.21875,
+        "niqe": 6.058738277632168,
+        "maniqa": 0.2581789493560791,
+        "brisque": 67.5625,
+        "nima": 4.665579319000244
+      },
+      "nafnet": {
+        "clipiqa": 0.18888895213603973,
+        "musiq": 45.78125,
+        "niqe": 6.070190684214291,
+        "maniqa": 0.25172656774520874,
+        "brisque": 67.3125,
+        "nima": 4.6142168045043945
+      },
+      "EVSSM": {
+        "clipiqa": 0.204105406999588,
+        "musiq": 50.65625,
+        "niqe": 5.978221644728638,
+        "maniqa": 0.2578791379928589,
+        "brisque": 52.84375,
+        "nima": 4.7663164138793945
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      6,
+      4,
+      2,
+      5,
+      1
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 23,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_004.png",
+    "degradation_description": "The image exhibits pronounced directional streaking that distorts the geometry of all objects, creating significant edge ghosting and blurring the boundaries between foreground and background elements.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.18473519384860992,
+        "musiq": 47.90625,
+        "niqe": 6.012357634022554,
+        "maniqa": 0.24757105112075806,
+        "brisque": 60.53125,
+        "nima": 4.639572620391846
+      },
+      "mprnet": {
+        "clipiqa": 0.18083618581295013,
+        "musiq": 48.4375,
+        "niqe": 5.878095204618808,
+        "maniqa": 0.24887634813785553,
+        "brisque": 55.84375,
+        "nima": 4.654201984405518
+      },
+      "maxim": {
+        "clipiqa": 0.23324322700500488,
+        "musiq": 43.34375,
+        "niqe": 6.747356993358047,
+        "maniqa": 0.21541838347911835,
+        "brisque": 57.65625,
+        "nima": 4.524159908294678
+      },
+      "xrestormer": {
+        "clipiqa": 0.18111610412597656,
+        "musiq": 49.8125,
+        "niqe": 6.013726095020674,
+        "maniqa": 0.24736835062503815,
+        "brisque": 59.15625,
+        "nima": 4.708145618438721
+      },
+      "nafnet": {
+        "clipiqa": 0.1858818084001541,
+        "musiq": 47.0,
+        "niqe": 5.711658283042489,
+        "maniqa": 0.2463698834180832,
+        "brisque": 57.59375,
+        "nima": 4.555625915527344
+      },
+      "EVSSM": {
+        "clipiqa": 0.17103704810142517,
+        "musiq": 45.40625,
+        "niqe": 5.882942387712113,
+        "maniqa": 0.21782997250556946,
+        "brisque": 64.5,
+        "nima": 4.735800743103027
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      4,
+      1,
+      6,
+      3,
+      2,
+      5
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 24,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_005.png",
+    "degradation_description": "The image exhibits a subtle directional smearing effect that slightly softens the fine details of the vertical structures, creating a faint ghosting along the edges of the objects without significantly distorting their overall geometry.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.3073594570159912,
+        "musiq": 62.46875,
+        "niqe": 4.9658601763344565,
+        "maniqa": 0.2652556002140045,
+        "brisque": 47.59375,
+        "nima": 4.415787220001221
+      },
+      "mprnet": {
+        "clipiqa": 0.28369981050491333,
+        "musiq": 63.03125,
+        "niqe": 4.777713491912001,
+        "maniqa": 0.2661225497722626,
+        "brisque": 46.90625,
+        "nima": 4.4449462890625
+      },
+      "maxim": {
+        "clipiqa": 0.37481480836868286,
+        "musiq": 62.375,
+        "niqe": 5.85185233497026,
+        "maniqa": 0.2546294629573822,
+        "brisque": 52.21875,
+        "nima": 4.489042282104492
+      },
+      "xrestormer": {
+        "clipiqa": 0.2877156436443329,
+        "musiq": 62.21875,
+        "niqe": 4.880639727719828,
+        "maniqa": 0.2634727358818054,
+        "brisque": 52.34375,
+        "nima": 4.424344539642334
+      },
+      "nafnet": {
+        "clipiqa": 0.2820093333721161,
+        "musiq": 60.5,
+        "niqe": 4.877058329825083,
+        "maniqa": 0.25066933035850525,
+        "brisque": 44.09375,
+        "nima": 4.39353609085083
+      },
+      "EVSSM": {
+        "clipiqa": 0.2710464894771576,
+        "musiq": 60.0625,
+        "niqe": 4.924283067385351,
+        "maniqa": 0.2559867799282074,
+        "brisque": 48.53125,
+        "nima": 4.474121570587158
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 25,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_006.png",
+    "degradation_description": "The image exhibits a directional smearing effect that causes a loss of fine detail and introduces a slight ghosting along the primary axis of movement, particularly noticeable in the structural lines of the objects.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.3311804234981537,
+        "musiq": 63.375,
+        "niqe": 5.029738825566664,
+        "maniqa": 0.2829560339450836,
+        "brisque": 54.34375,
+        "nima": 4.445234298706055
+      },
+      "mprnet": {
+        "clipiqa": 0.3187102973461151,
+        "musiq": 63.6875,
+        "niqe": 4.931240803354005,
+        "maniqa": 0.284788578748703,
+        "brisque": 54.28125,
+        "nima": 4.463601112365723
+      },
+      "maxim": {
+        "clipiqa": 0.3976507782936096,
+        "musiq": 63.4375,
+        "niqe": 5.899854235296529,
+        "maniqa": 0.2709878981113434,
+        "brisque": 65.625,
+        "nima": 4.551639556884766
+      },
+      "xrestormer": {
+        "clipiqa": 0.3364408016204834,
+        "musiq": 63.8125,
+        "niqe": 4.98810537649675,
+        "maniqa": 0.2869030237197876,
+        "brisque": 46.90625,
+        "nima": 4.460328102111816
+      },
+      "nafnet": {
+        "clipiqa": 0.3228094279766083,
+        "musiq": 62.3125,
+        "niqe": 5.036179617376135,
+        "maniqa": 0.27770617604255676,
+        "brisque": 52.96875,
+        "nima": 4.432223796844482
+      },
+      "EVSSM": {
+        "clipiqa": 0.3374103009700775,
+        "musiq": 63.03125,
+        "niqe": 4.970985806329317,
+        "maniqa": 0.2835269868373871,
+        "brisque": 49.84375,
+        "nima": 4.46851921081543
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      5,
+      3,
+      4,
+      1,
+      6,
+      2
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 26,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_007.png",
+    "degradation_description": "The image exhibits a subtle directional smearing effect that slightly softens the fine details of the vertical structures, creating a faint ghosting along the primary axis of the scene.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.2954922020435333,
+        "musiq": 58.46875,
+        "niqe": 4.893961514649258,
+        "maniqa": 0.24802270531654358,
+        "brisque": 44.65625,
+        "nima": 4.527607440948486
+      },
+      "mprnet": {
+        "clipiqa": 0.2907530963420868,
+        "musiq": 56.875,
+        "niqe": 4.740483983207692,
+        "maniqa": 0.24135494232177734,
+        "brisque": 43.15625,
+        "nima": 4.503754615783691
+      },
+      "maxim": {
+        "clipiqa": 0.35842105746269226,
+        "musiq": 59.0625,
+        "niqe": 6.142690841277642,
+        "maniqa": 0.24194654822349548,
+        "brisque": 55.59375,
+        "nima": 4.576611518859863
+      },
+      "xrestormer": {
+        "clipiqa": 0.2814560830593109,
+        "musiq": 57.21875,
+        "niqe": 4.777689882922858,
+        "maniqa": 0.24392351508140564,
+        "brisque": 44.28125,
+        "nima": 4.507946968078613
+      },
+      "nafnet": {
+        "clipiqa": 0.2667217254638672,
+        "musiq": 56.09375,
+        "niqe": 4.769038149214126,
+        "maniqa": 0.2303370237350464,
+        "brisque": 53.34375,
+        "nima": 4.47566556930542
+      },
+      "EVSSM": {
+        "clipiqa": 0.27162083983421326,
+        "musiq": 54.0,
+        "niqe": 4.901950900099603,
+        "maniqa": 0.23518358170986176,
+        "brisque": 57.78125,
+        "nima": 4.607043743133545
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      1,
+      2,
+      4,
+      3,
+      6,
+      5
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 27,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_008.png",
+    "degradation_description": "The image exhibits a subtle directional smearing effect that slightly softens the fine details of the vertical structures, creating a faint ghosting along the primary axis of the scene.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.33668485283851624,
+        "musiq": 64.3125,
+        "niqe": 4.889370956092611,
+        "maniqa": 0.2755284905433655,
+        "brisque": 48.09375,
+        "nima": 4.554263114929199
+      },
+      "mprnet": {
+        "clipiqa": 0.3393019735813141,
+        "musiq": 64.5625,
+        "niqe": 4.707231196616487,
+        "maniqa": 0.27943533658981323,
+        "brisque": 46.65625,
+        "nima": 4.5533647537231445
+      },
+      "maxim": {
+        "clipiqa": 0.3694680631160736,
+        "musiq": 65.125,
+        "niqe": 5.652837349643982,
+        "maniqa": 0.272909015417099,
+        "brisque": 51.90625,
+        "nima": 4.584494113922119
+      },
+      "xrestormer": {
+        "clipiqa": 0.3354816734790802,
+        "musiq": 63.5,
+        "niqe": 4.773617380639806,
+        "maniqa": 0.26934128999710083,
+        "brisque": 48.96875,
+        "nima": 4.533723831176758
+      },
+      "nafnet": {
+        "clipiqa": 0.29888710379600525,
+        "musiq": 63.1875,
+        "niqe": 4.898946814554785,
+        "maniqa": 0.26955556869506836,
+        "brisque": 53.40625,
+        "nima": 4.535502910614014
+      },
+      "EVSSM": {
+        "clipiqa": 0.3230959475040436,
+        "musiq": 61.09375,
+        "niqe": 4.78803918541378,
+        "maniqa": 0.2653408348560333,
+        "brisque": 51.71875,
+        "nima": 4.635319232940674
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      1,
+      3,
+      4,
+      6,
+      5
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 28,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_009.png",
+    "degradation_description": "The image exhibits a subtle directional smearing effect that slightly softens the fine geometric details and edges of the objects, creating a faint ghosting appearance without significant distortion.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.3095073699951172,
+        "musiq": 64.125,
+        "niqe": 5.149007048775292,
+        "maniqa": 0.27513933181762695,
+        "brisque": 50.65625,
+        "nima": 4.336023330688477
+      },
+      "mprnet": {
+        "clipiqa": 0.29048654437065125,
+        "musiq": 64.75,
+        "niqe": 5.070852300026776,
+        "maniqa": 0.27694493532180786,
+        "brisque": 46.78125,
+        "nima": 4.34157657623291
+      },
+      "maxim": {
+        "clipiqa": 0.36300620436668396,
+        "musiq": 64.375,
+        "niqe": 5.867328208467589,
+        "maniqa": 0.27284786105155945,
+        "brisque": 55.84375,
+        "nima": 4.405728340148926
+      },
+      "xrestormer": {
+        "clipiqa": 0.309993714094162,
+        "musiq": 64.6875,
+        "niqe": 5.027838879936655,
+        "maniqa": 0.27753013372421265,
+        "brisque": 58.34375,
+        "nima": 4.3502092361450195
+      },
+      "nafnet": {
+        "clipiqa": 0.2746447026729584,
+        "musiq": 63.3125,
+        "niqe": 5.12946185898001,
+        "maniqa": 0.266512006521225,
+        "brisque": 46.59375,
+        "nima": 4.330838680267334
+      },
+      "EVSSM": {
+        "clipiqa": 0.31875720620155334,
+        "musiq": 64.4375,
+        "niqe": 5.071570861323739,
+        "maniqa": 0.28127703070640564,
+        "brisque": 41.28125,
+        "nima": 4.4301958084106445
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      5,
+      3,
+      4,
+      2,
+      6,
+      1
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 29,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_010.png",
+    "degradation_description": "The image exhibits directional motion blur that creates a consistent horizontal streaking effect across the entire frame, resulting in a loss of fine detail and a smeared appearance of all geometric structures.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.3291563093662262,
+        "musiq": 59.75,
+        "niqe": 5.040229019482679,
+        "maniqa": 0.30690041184425354,
+        "brisque": 56.53125,
+        "nima": 4.276416778564453
+      },
+      "mprnet": {
+        "clipiqa": 0.33354657888412476,
+        "musiq": 60.125,
+        "niqe": 5.001778386616748,
+        "maniqa": 0.3071034252643585,
+        "brisque": 52.21875,
+        "nima": 4.323680400848389
+      },
+      "maxim": {
+        "clipiqa": 0.35496172308921814,
+        "musiq": 61.125,
+        "niqe": 5.936960028316482,
+        "maniqa": 0.2982429563999176,
+        "brisque": 62.03125,
+        "nima": 4.356160640716553
+      },
+      "xrestormer": {
+        "clipiqa": 0.3471653461456299,
+        "musiq": 60.40625,
+        "niqe": 5.092519671869827,
+        "maniqa": 0.3052551746368408,
+        "brisque": 52.21875,
+        "nima": 4.235109329223633
+      },
+      "nafnet": {
+        "clipiqa": 0.3051639497280121,
+        "musiq": 57.96875,
+        "niqe": 4.96072783879411,
+        "maniqa": 0.290615051984787,
+        "brisque": 45.78125,
+        "nima": 4.224183559417725
+      },
+      "EVSSM": {
+        "clipiqa": 0.3147906959056854,
+        "musiq": 60.09375,
+        "niqe": 5.04004525363587,
+        "maniqa": 0.2856895327568054,
+        "brisque": 58.71875,
+        "nima": 4.2895612716674805
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      4,
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 30,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_011.png",
+    "degradation_description": "The image exhibits a directional smearing effect that causes a loss of fine detail and introduces a ghosting appearance across the entire frame, particularly noticeable in the text and structural lines.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.35562315583229065,
+        "musiq": 60.34375,
+        "niqe": 5.031940933939699,
+        "maniqa": 0.31724047660827637,
+        "brisque": 48.71875,
+        "nima": 4.338850021362305
+      },
+      "mprnet": {
+        "clipiqa": 0.3505970537662506,
+        "musiq": 60.40625,
+        "niqe": 4.874731627427116,
+        "maniqa": 0.31828373670578003,
+        "brisque": 55.78125,
+        "nima": 4.394986629486084
+      },
+      "maxim": {
+        "clipiqa": 0.3757741451263428,
+        "musiq": 61.09375,
+        "niqe": 5.734952475280107,
+        "maniqa": 0.30536627769470215,
+        "brisque": 60.96875,
+        "nima": 4.423098564147949
+      },
+      "xrestormer": {
+        "clipiqa": 0.35614529252052307,
+        "musiq": 61.0625,
+        "niqe": 5.107416011148001,
+        "maniqa": 0.31742286682128906,
+        "brisque": 52.40625,
+        "nima": 4.341526985168457
+      },
+      "nafnet": {
+        "clipiqa": 0.3322301506996155,
+        "musiq": 57.375,
+        "niqe": 4.985909677317937,
+        "maniqa": 0.2997911870479584,
+        "brisque": 49.96875,
+        "nima": 4.336199760437012
+      },
+      "EVSSM": {
+        "clipiqa": 0.3353019058704376,
+        "musiq": 61.84375,
+        "niqe": 5.0111461258941565,
+        "maniqa": 0.3040758967399597,
+        "brisque": 51.40625,
+        "nima": 4.351984977722168
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      5,
+      1,
+      2,
+      3,
+      6,
+      4
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 31,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_012.png",
+    "degradation_description": "The image exhibits directional motion blur that causes a uniform loss of sharpness across the entire frame, resulting in smeared edges and ghosting artifacts that obscure fine details and text clarity.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.32549282908439636,
+        "musiq": 60.0,
+        "niqe": 5.112960858775645,
+        "maniqa": 0.3165656328201294,
+        "brisque": 53.71875,
+        "nima": 4.406571388244629
+      },
+      "mprnet": {
+        "clipiqa": 0.31442904472351074,
+        "musiq": 60.375,
+        "niqe": 4.969339823941486,
+        "maniqa": 0.31953760981559753,
+        "brisque": 56.59375,
+        "nima": 4.437230587005615
+      },
+      "maxim": {
+        "clipiqa": 0.378768652677536,
+        "musiq": 61.21875,
+        "niqe": 5.852578450690082,
+        "maniqa": 0.30695581436157227,
+        "brisque": 52.09375,
+        "nima": 4.375466346740723
+      },
+      "xrestormer": {
+        "clipiqa": 0.3167726993560791,
+        "musiq": 60.875,
+        "niqe": 5.074237439435363,
+        "maniqa": 0.3179101049900055,
+        "brisque": 51.84375,
+        "nima": 4.399405479431152
+      },
+      "nafnet": {
+        "clipiqa": 0.3058594763278961,
+        "musiq": 58.03125,
+        "niqe": 5.037891898102893,
+        "maniqa": 0.3011987507343292,
+        "brisque": 56.71875,
+        "nima": 4.384539604187012
+      },
+      "EVSSM": {
+        "clipiqa": 0.31461742520332336,
+        "musiq": 61.21875,
+        "niqe": 5.0288648369781335,
+        "maniqa": 0.3027476370334625,
+        "brisque": 55.71875,
+        "nima": 4.421555042266846
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      4,
+      1,
+      5,
+      2,
+      6,
+      3
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 32,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_013.png",
+    "degradation_description": "The image exhibits directional motion blur that creates a distinct horizontal streaking effect across the entire frame, resulting in a loss of fine detail and a smeared appearance of all geometric structures.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.34619763493537903,
+        "musiq": 58.96875,
+        "niqe": 5.126977121515548,
+        "maniqa": 0.3043115437030792,
+        "brisque": 58.15625,
+        "nima": 4.349600791931152
+      },
+      "mprnet": {
+        "clipiqa": 0.34538260102272034,
+        "musiq": 58.375,
+        "niqe": 5.060086376718426,
+        "maniqa": 0.2959701120853424,
+        "brisque": 50.90625,
+        "nima": 4.3585333824157715
+      },
+      "maxim": {
+        "clipiqa": 0.360871285200119,
+        "musiq": 60.75,
+        "niqe": 6.097791904641283,
+        "maniqa": 0.29061514139175415,
+        "brisque": 53.53125,
+        "nima": 4.426358699798584
+      },
+      "xrestormer": {
+        "clipiqa": 0.3474005162715912,
+        "musiq": 58.71875,
+        "niqe": 5.09344336104335,
+        "maniqa": 0.29795730113983154,
+        "brisque": 56.46875,
+        "nima": 4.32584285736084
+      },
+      "nafnet": {
+        "clipiqa": 0.31859686970710754,
+        "musiq": 57.40625,
+        "niqe": 5.111228847921826,
+        "maniqa": 0.28258150815963745,
+        "brisque": 52.65625,
+        "nima": 4.281922817230225
+      },
+      "EVSSM": {
+        "clipiqa": 0.3201853334903717,
+        "musiq": 58.9375,
+        "niqe": 5.044517289642542,
+        "maniqa": 0.27196604013442993,
+        "brisque": 54.21875,
+        "nima": 4.349588394165039
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      3,
+      2,
+      1,
+      4,
+      6,
+      5
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 33,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_014.png",
+    "degradation_description": "The image exhibits directional motion blur that creates a consistent horizontal streaking effect across the entire frame, resulting in a loss of fine detail and a smeared appearance of all geometric structures and text.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.3369588553905487,
+        "musiq": 58.625,
+        "niqe": 5.282554893425147,
+        "maniqa": 0.30283617973327637,
+        "brisque": 48.21875,
+        "nima": 4.374137878417969
+      },
+      "mprnet": {
+        "clipiqa": 0.30586883425712585,
+        "musiq": 58.59375,
+        "niqe": 5.154967614816512,
+        "maniqa": 0.2946002781391144,
+        "brisque": 42.78125,
+        "nima": 4.362642288208008
+      },
+      "maxim": {
+        "clipiqa": 0.34630557894706726,
+        "musiq": 59.84375,
+        "niqe": 6.167337973882688,
+        "maniqa": 0.2898769974708557,
+        "brisque": 56.46875,
+        "nima": 4.399842262268066
+      },
+      "xrestormer": {
+        "clipiqa": 0.323932021856308,
+        "musiq": 58.1875,
+        "niqe": 5.204357540444426,
+        "maniqa": 0.2960582375526428,
+        "brisque": 51.90625,
+        "nima": 4.356917858123779
+      },
+      "nafnet": {
+        "clipiqa": 0.2927246689796448,
+        "musiq": 57.1875,
+        "niqe": 5.178459314110341,
+        "maniqa": 0.2796027958393097,
+        "brisque": 47.03125,
+        "nima": 4.329378128051758
+      },
+      "EVSSM": {
+        "clipiqa": 0.3196244537830353,
+        "musiq": 58.03125,
+        "niqe": 5.258251522012271,
+        "maniqa": 0.26754868030548096,
+        "brisque": 50.28125,
+        "nima": 4.291874885559082
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 34,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_015.png",
+    "degradation_description": "The image exhibits directional motion blur that creates a distinct horizontal streaking effect across the entire frame, resulting in a loss of fine detail and a smeared appearance of all geometric structures and text.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.32760921120643616,
+        "musiq": 58.34375,
+        "niqe": 4.931770743873533,
+        "maniqa": 0.3124861717224121,
+        "brisque": 52.28125,
+        "nima": 4.407892227172852
+      },
+      "mprnet": {
+        "clipiqa": 0.3224342465400696,
+        "musiq": 58.21875,
+        "niqe": 4.808055753178341,
+        "maniqa": 0.31007760763168335,
+        "brisque": 59.15625,
+        "nima": 4.436354160308838
+      },
+      "maxim": {
+        "clipiqa": 0.3600253164768219,
+        "musiq": 60.0,
+        "niqe": 5.725856973268144,
+        "maniqa": 0.2959422767162323,
+        "brisque": 56.40625,
+        "nima": 4.435673713684082
+      },
+      "xrestormer": {
+        "clipiqa": 0.3266696631908417,
+        "musiq": 58.75,
+        "niqe": 4.951196622453721,
+        "maniqa": 0.31060412526130676,
+        "brisque": 45.65625,
+        "nima": 4.38446569442749
+      },
+      "nafnet": {
+        "clipiqa": 0.3046148717403412,
+        "musiq": 56.5625,
+        "niqe": 4.881571446868652,
+        "maniqa": 0.29287707805633545,
+        "brisque": 48.84375,
+        "nima": 4.365579605102539
+      },
+      "EVSSM": {
+        "clipiqa": 0.3138373792171478,
+        "musiq": 58.09375,
+        "niqe": 5.005473162300347,
+        "maniqa": 0.28679201006889343,
+        "brisque": 55.40625,
+        "nima": 4.312686920166016
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      1,
+      3,
+      4,
+      2,
+      5,
+      6
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 35,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_016.png",
+    "degradation_description": "The image exhibits significant directional motion blur that creates a uniform horizontal streaking effect across all geometric structures, resulting in severe edge ghosting and a complete loss of fine detail.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.2722433805465698,
+        "musiq": 46.84375,
+        "niqe": 7.36459724545923,
+        "maniqa": 0.2679562568664551,
+        "brisque": 85.375,
+        "nima": 3.9201102256774902
+      },
+      "mprnet": {
+        "clipiqa": 0.27721673250198364,
+        "musiq": 45.9375,
+        "niqe": 7.279938484154132,
+        "maniqa": 0.27759939432144165,
+        "brisque": 71.6875,
+        "nima": 3.928633213043213
+      },
+      "maxim": {
+        "clipiqa": 0.3537748456001282,
+        "musiq": 44.875,
+        "niqe": 8.222339449178982,
+        "maniqa": 0.2564302384853363,
+        "brisque": 85.0,
+        "nima": 3.7864880561828613
+      },
+      "xrestormer": {
+        "clipiqa": 0.2836405336856842,
+        "musiq": 45.0625,
+        "niqe": 7.618544255131936,
+        "maniqa": 0.2574624717235565,
+        "brisque": 85.0,
+        "nima": 3.9050512313842773
+      },
+      "nafnet": {
+        "clipiqa": 0.26892298460006714,
+        "musiq": 45.53125,
+        "niqe": 7.2598888294710235,
+        "maniqa": 0.2529579997062683,
+        "brisque": 81.25,
+        "nima": 3.830049991607666
+      },
+      "EVSSM": {
+        "clipiqa": 0.25877732038497925,
+        "musiq": 43.28125,
+        "niqe": 7.519055832618477,
+        "maniqa": 0.2475823014974594,
+        "brisque": 81.5625,
+        "nima": 3.9235846996307373
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      1,
+      5,
+      4,
+      3,
+      6
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 36,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_017.png",
+    "degradation_description": "The image exhibits significant directional motion blur that creates a uniform horizontal streaking effect across the entire frame, causing distinct geometric edges to lose definition and appear as elongated, smeared shapes.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.35558590292930603,
+        "musiq": 46.53125,
+        "niqe": 7.151427650684814,
+        "maniqa": 0.2661944031715393,
+        "brisque": 81.375,
+        "nima": 3.8383965492248535
+      },
+      "mprnet": {
+        "clipiqa": 0.3802855312824249,
+        "musiq": 46.6875,
+        "niqe": 7.190517804781373,
+        "maniqa": 0.27886900305747986,
+        "brisque": 75.5625,
+        "nima": 3.8489108085632324
+      },
+      "maxim": {
+        "clipiqa": 0.42333704233169556,
+        "musiq": 42.75,
+        "niqe": 8.167212566038112,
+        "maniqa": 0.2562936842441559,
+        "brisque": 83.6875,
+        "nima": 3.7739856243133545
+      },
+      "xrestormer": {
+        "clipiqa": 0.3606142997741699,
+        "musiq": 44.90625,
+        "niqe": 7.364602823062918,
+        "maniqa": 0.2581369876861572,
+        "brisque": 82.6875,
+        "nima": 3.7978696823120117
+      },
+      "nafnet": {
+        "clipiqa": 0.37202316522598267,
+        "musiq": 44.5625,
+        "niqe": 6.829265015247298,
+        "maniqa": 0.2518627643585205,
+        "brisque": 78.9375,
+        "nima": 3.7770917415618896
+      },
+      "EVSSM": {
+        "clipiqa": 0.3255463242530823,
+        "musiq": 45.0625,
+        "niqe": 7.173879091129634,
+        "maniqa": 0.24650058150291443,
+        "brisque": 86.25,
+        "nima": 3.778244972229004
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      1,
+      5,
+      4,
+      3,
+      6
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 37,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_018.png",
+    "degradation_description": "The image exhibits significant directional motion blur that creates a uniform horizontal streaking effect across the entire frame, causing all geometric structures and text to lose sharpness and appear smeared.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.3893093764781952,
+        "musiq": 52.78125,
+        "niqe": 6.941800111658573,
+        "maniqa": 0.2858317196369171,
+        "brisque": 78.9375,
+        "nima": 3.9227590560913086
+      },
+      "mprnet": {
+        "clipiqa": 0.41180917620658875,
+        "musiq": 53.0,
+        "niqe": 7.079590158023496,
+        "maniqa": 0.2974003851413727,
+        "brisque": 82.5625,
+        "nima": 3.96476149559021
+      },
+      "maxim": {
+        "clipiqa": 0.48503515124320984,
+        "musiq": 46.71875,
+        "niqe": 8.263361529259411,
+        "maniqa": 0.27531248331069946,
+        "brisque": 92.0,
+        "nima": 3.8608460426330566
+      },
+      "xrestormer": {
+        "clipiqa": 0.3988810181617737,
+        "musiq": 50.65625,
+        "niqe": 7.29443106672267,
+        "maniqa": 0.282240092754364,
+        "brisque": 78.125,
+        "nima": 3.929206132888794
+      },
+      "nafnet": {
+        "clipiqa": 0.36456841230392456,
+        "musiq": 50.5625,
+        "niqe": 6.950311229395359,
+        "maniqa": 0.27341708540916443,
+        "brisque": 77.625,
+        "nima": 3.877723217010498
+      },
+      "EVSSM": {
+        "clipiqa": 0.39918389916419983,
+        "musiq": 50.625,
+        "niqe": 6.9720914760080985,
+        "maniqa": 0.2725696563720703,
+        "brisque": 81.75,
+        "nima": 3.925825595855713
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      1,
+      6,
+      3,
+      5,
+      4
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 38,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_019.png",
+    "degradation_description": "The image exhibits significant directional motion blur that creates a uniform horizontal streaking effect across the entire frame, causing all geometric structures and text to lose sharpness and appear smeared.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.36121103167533875,
+        "musiq": 49.90625,
+        "niqe": 7.327022156846593,
+        "maniqa": 0.27249112725257874,
+        "brisque": 81.0,
+        "nima": 3.91391921043396
+      },
+      "mprnet": {
+        "clipiqa": 0.3875659704208374,
+        "musiq": 49.15625,
+        "niqe": 7.207870184414269,
+        "maniqa": 0.283162385225296,
+        "brisque": 80.75,
+        "nima": 3.909501552581787
+      },
+      "maxim": {
+        "clipiqa": 0.44945892691612244,
+        "musiq": 46.78125,
+        "niqe": 8.387949021965602,
+        "maniqa": 0.2740952968597412,
+        "brisque": 82.8125,
+        "nima": 3.838562250137329
+      },
+      "xrestormer": {
+        "clipiqa": 0.3719103932380676,
+        "musiq": 48.6875,
+        "niqe": 7.528539601027723,
+        "maniqa": 0.27241432666778564,
+        "brisque": 82.6875,
+        "nima": 3.922921657562256
+      },
+      "nafnet": {
+        "clipiqa": 0.341964453458786,
+        "musiq": 47.375,
+        "niqe": 7.2136225746997615,
+        "maniqa": 0.26548752188682556,
+        "brisque": 80.0,
+        "nima": 3.874630928039551
+      },
+      "EVSSM": {
+        "clipiqa": 0.34389227628707886,
+        "musiq": 48.09375,
+        "niqe": 7.4128859633273265,
+        "maniqa": 0.26019635796546936,
+        "brisque": 85.9375,
+        "nima": 3.928219795227051
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      2,
+      1,
+      5,
+      3,
+      4,
+      6
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  },
+  {
+    "task_id": 39,
+    "degradation_type": "motion blur",
+    "tools_name": [
+      "restormer",
+      "mprnet",
+      "maxim",
+      "xrestormer",
+      "nafnet",
+      "EVSSM"
+    ],
+    "lq_img_path": "images/lq/jpeg compression artifact+motion blur/sample_020.png",
+    "degradation_description": "The image exhibits pronounced directional streaking that significantly distorts the geometry of all objects, creating a uniform spatial blur where distinct edges are replaced by elongated ghosting artifacts and highlights are smeared into continuous lines.",
+    "fidelity_scores": {},
+    "perception_scores": {
+      "restormer": {
+        "clipiqa": 0.2418472319841385,
+        "musiq": 48.125,
+        "niqe": 5.082970461555433,
+        "maniqa": 0.24183207750320435,
+        "brisque": 41.34375,
+        "nima": 3.9178237915039062
+      },
+      "mprnet": {
+        "clipiqa": 0.22669659554958344,
+        "musiq": 46.96875,
+        "niqe": 4.970064666896296,
+        "maniqa": 0.2280966341495514,
+        "brisque": 46.96875,
+        "nima": 3.839911460876465
+      },
+      "maxim": {
+        "clipiqa": 0.25926199555397034,
+        "musiq": 44.90625,
+        "niqe": 5.928543499356655,
+        "maniqa": 0.22914767265319824,
+        "brisque": 47.90625,
+        "nima": 3.8666677474975586
+      },
+      "xrestormer": {
+        "clipiqa": 0.2394050657749176,
+        "musiq": 48.15625,
+        "niqe": 4.995202415831977,
+        "maniqa": 0.23863282799720764,
+        "brisque": 45.65625,
+        "nima": 3.892479419708252
+      },
+      "nafnet": {
+        "clipiqa": 0.19406019151210785,
+        "musiq": 43.0625,
+        "niqe": 5.077750457473639,
+        "maniqa": 0.21840119361877441,
+        "brisque": 52.59375,
+        "nima": 3.7963130474090576
+      },
+      "EVSSM": {
+        "clipiqa": 0.1723073571920395,
+        "musiq": 41.59375,
+        "niqe": 4.934763421920427,
+        "maniqa": 0.18660974502563477,
+        "brisque": 44.09375,
+        "nima": 3.635472297668457
+      }
+    },
+    "fidelity_scores_ranking": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "perception_scores_ranking": [
+      1,
+      3,
+      4,
+      2,
+      6,
+      5
+    ],
+    "evaluation_metadata": {
+      "active_dimensions": [
+        "perception"
+      ],
+      "iqa": {
+        "fidelity": {
+          "backend": "score",
+          "score_metric_weights": {
+            "lpips": 1.0,
+            "dists": 1.0,
+            "psnr": 1.0,
+            "ssim": 1.0
+          },
+          "language_provider": null
+        },
+        "perception": {
+          "backend": "score",
+          "score_metric_weights": {
+            "clipiqa": 1.0,
+            "musiq": 1.0,
+            "niqe": 1.0,
+            "maniqa": 1.0,
+            "brisque": 1.0,
+            "nima": 1.0
+          },
+          "language_provider": null
+        }
+      },
+      "permutation_drop": {
+        "drop_rate": 0.0,
+        "seed": 42,
+        "total_permutations": 1,
+        "dropped_permutations": 0,
+        "retained_permutations": 1,
+        "retained_sequences": []
+      }
+    }
+  }
+]
