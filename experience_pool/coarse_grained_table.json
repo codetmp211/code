@@ -1,0 +1,652 @@
+{
+  "jpeg compression artifact": {
+    "fidelity": {
+      "wins": {
+        "fbcnn_blind || fbcnn_5": 13.0,
+        "fbcnn_5 || fbcnn_blind": 0.0,
+        "fbcnn_blind || fbcnn_90": 1.0,
+        "fbcnn_90 || fbcnn_blind": 3.0,
+        "fbcnn_blind || swinir_40": 5.0,
+        "swinir_40 || fbcnn_blind": 0.0,
+        "fbcnn_5 || fbcnn_90": 0.0,
+        "fbcnn_90 || fbcnn_5": 13.0,
+        "fbcnn_5 || swinir_40": 0.0,
+        "swinir_40 || fbcnn_5": 15.0,
+        "fbcnn_90 || swinir_40": 4.0,
+        "swinir_40 || fbcnn_90": 1.0
+      },
+      "ties": {
+        "fbcnn_5 || fbcnn_blind": 7.0,
+        "fbcnn_90 || fbcnn_blind": 16.0,
+        "fbcnn_blind || swinir_40": 15.0,
+        "fbcnn_5 || fbcnn_90": 7.0,
+        "fbcnn_5 || swinir_40": 5.0,
+        "fbcnn_90 || swinir_40": 15.0
+      },
+      "candidates": [
+        "fbcnn_5",
+        "fbcnn_90",
+        "fbcnn_blind",
+        "swinir_40"
+      ]
+    },
+    "perception": {
+      "wins": {
+        "fbcnn_blind || fbcnn_5": 4.0,
+        "fbcnn_5 || fbcnn_blind": 8.0,
+        "fbcnn_blind || fbcnn_90": 13.0,
+        "fbcnn_90 || fbcnn_blind": 1.0,
+        "fbcnn_blind || swinir_40": 0.0,
+        "swinir_40 || fbcnn_blind": 13.0,
+        "fbcnn_5 || fbcnn_90": 8.0,
+        "fbcnn_90 || fbcnn_5": 5.0,
+        "fbcnn_5 || swinir_40": 8.0,
+        "swinir_40 || fbcnn_5": 9.0,
+        "fbcnn_90 || swinir_40": 0.0,
+        "swinir_40 || fbcnn_90": 11.0
+      },
+      "ties": {
+        "fbcnn_5 || fbcnn_blind": 8.0,
+        "fbcnn_90 || fbcnn_blind": 6.0,
+        "fbcnn_blind || swinir_40": 7.0,
+        "fbcnn_5 || fbcnn_90": 7.0,
+        "fbcnn_5 || swinir_40": 3.0,
+        "fbcnn_90 || swinir_40": 9.0
+      },
+      "candidates": [
+        "fbcnn_5",
+        "fbcnn_90",
+        "fbcnn_blind",
+        "swinir_40"
+      ]
+    }
+  },
+  "motion blur": {
+    "fidelity": {
+      "wins": {
+        "restormer || mprnet": 4.0,
+        "mprnet || restormer": 5.0,
+        "restormer || maxim": 15.0,
+        "maxim || restormer": 0.0,
+        "restormer || xrestormer": 1.0,
+        "xrestormer || restormer": 8.0,
+        "restormer || nafnet": 0.0,
+        "nafnet || restormer": 9.0,
+        "restormer || EVSSM": 16.0,
+        "EVSSM || restormer": 0.0,
+        "mprnet || maxim": 16.0,
+        "maxim || mprnet": 0.0,
+        "mprnet || xrestormer": 5.0,
+        "xrestormer || mprnet": 5.0,
+        "mprnet || nafnet": 3.0,
+        "nafnet || mprnet": 5.0,
+        "mprnet || EVSSM": 14.0,
+        "EVSSM || mprnet": 0.0,
+        "maxim || xrestormer": 0.0,
+        "xrestormer || maxim": 15.0,
+        "maxim || nafnet": 0.0,
+        "nafnet || maxim": 16.0,
+        "maxim || EVSSM": 3.0,
+        "EVSSM || maxim": 13.0,
+        "xrestormer || nafnet": 0.0,
+        "nafnet || xrestormer": 3.0,
+        "xrestormer || EVSSM": 18.0,
+        "EVSSM || xrestormer": 0.0,
+        "nafnet || EVSSM": 19.0,
+        "EVSSM || nafnet": 0.0
+      },
+      "ties": {
+        "mprnet || restormer": 11.0,
+        "maxim || restormer": 5.0,
+        "restormer || xrestormer": 11.0,
+        "nafnet || restormer": 11.0,
+        "EVSSM || restormer": 4.0,
+        "maxim || mprnet": 4.0,
+        "mprnet || xrestormer": 10.0,
+        "mprnet || nafnet": 12.0,
+        "EVSSM || mprnet": 6.0,
+        "maxim || xrestormer": 5.0,
+        "maxim || nafnet": 4.0,
+        "EVSSM || maxim": 4.0,
+        "nafnet || xrestormer": 17.0,
+        "EVSSM || xrestormer": 2.0,
+        "EVSSM || nafnet": 1.0
+      },
+      "candidates": [
+        "EVSSM",
+        "maxim",
+        "mprnet",
+        "nafnet",
+        "restormer",
+        "xrestormer"
+      ]
+    },
+    "perception": {
+      "wins": {
+        "restormer || mprnet": 6.0,
+        "mprnet || restormer": 13.0,
+        "restormer || maxim": 9.0,
+        "maxim || restormer": 1.0,
+        "restormer || xrestormer": 9.0,
+        "xrestormer || restormer": 7.0,
+        "restormer || nafnet": 17.0,
+        "nafnet || restormer": 1.0,
+        "restormer || EVSSM": 12.0,
+        "EVSSM || restormer": 5.0,
+        "mprnet || maxim": 10.0,
+        "maxim || mprnet": 1.0,
+        "mprnet || xrestormer": 8.0,
+        "xrestormer || mprnet": 7.0,
+        "mprnet || nafnet": 17.0,
+        "nafnet || mprnet": 2.0,
+        "mprnet || EVSSM": 14.0,
+        "EVSSM || mprnet": 3.0,
+        "maxim || xrestormer": 3.0,
+        "xrestormer || maxim": 10.0,
+        "maxim || nafnet": 11.0,
+        "nafnet || maxim": 5.0,
+        "maxim || EVSSM": 7.0,
+        "EVSSM || maxim": 6.0,
+        "xrestormer || nafnet": 17.0,
+        "nafnet || xrestormer": 0.0,
+        "xrestormer || EVSSM": 12.0,
+        "EVSSM || xrestormer": 5.0,
+        "nafnet || EVSSM": 7.0,
+        "EVSSM || nafnet": 8.0
+      },
+      "ties": {
+        "mprnet || restormer": 1.0,
+        "maxim || restormer": 10.0,
+        "restormer || xrestormer": 4.0,
+        "nafnet || restormer": 2.0,
+        "EVSSM || restormer": 3.0,
+        "maxim || mprnet": 9.0,
+        "mprnet || xrestormer": 5.0,
+        "mprnet || nafnet": 1.0,
+        "EVSSM || mprnet": 3.0,
+        "maxim || xrestormer": 7.0,
+        "maxim || nafnet": 4.0,
+        "EVSSM || maxim": 7.0,
+        "nafnet || xrestormer": 3.0,
+        "EVSSM || xrestormer": 3.0,
+        "EVSSM || nafnet": 5.0
+      },
+      "candidates": [
+        "EVSSM",
+        "maxim",
+        "mprnet",
+        "nafnet",
+        "restormer",
+        "xrestormer"
+      ]
+    }
+  },
+  "haze": {
+    "fidelity": {
+      "wins": {
+        "xrestormer || ridcp": 16.0,
+        "ridcp || xrestormer": 2.0,
+        "xrestormer || dehazeformer": 6.0,
+        "dehazeformer || xrestormer": 10.0,
+        "xrestormer || maxim": 7.0,
+        "maxim || xrestormer": 11.0,
+        "xrestormer || diffplugin": 7.0,
+        "diffplugin || xrestormer": 6.0,
+        "ridcp || dehazeformer": 0.0,
+        "dehazeformer || ridcp": 14.0,
+        "ridcp || maxim": 4.0,
+        "maxim || ridcp": 13.0,
+        "ridcp || diffplugin": 5.0,
+        "diffplugin || ridcp": 11.0,
+        "dehazeformer || maxim": 7.0,
+        "maxim || dehazeformer": 9.0,
+        "dehazeformer || diffplugin": 9.0,
+        "diffplugin || dehazeformer": 5.0,
+        "maxim || diffplugin": 8.0,
+        "diffplugin || maxim": 11.0
+      },
+      "ties": {
+        "ridcp || xrestormer": 2.0,
+        "dehazeformer || xrestormer": 4.0,
+        "maxim || xrestormer": 2.0,
+        "diffplugin || xrestormer": 7.0,
+        "dehazeformer || ridcp": 6.0,
+        "maxim || ridcp": 3.0,
+        "diffplugin || ridcp": 4.0,
+        "dehazeformer || maxim": 4.0,
+        "dehazeformer || diffplugin": 6.0,
+        "diffplugin || maxim": 1.0
+      },
+      "candidates": [
+        "dehazeformer",
+        "diffplugin",
+        "maxim",
+        "ridcp",
+        "xrestormer"
+      ]
+    },
+    "perception": {
+      "wins": {
+        "xrestormer || ridcp": 8.0,
+        "ridcp || xrestormer": 6.0,
+        "xrestormer || dehazeformer": 2.0,
+        "dehazeformer || xrestormer": 14.0,
+        "xrestormer || maxim": 1.0,
+        "maxim || xrestormer": 9.0,
+        "xrestormer || diffplugin": 3.0,
+        "diffplugin || xrestormer": 14.0,
+        "ridcp || dehazeformer": 5.0,
+        "dehazeformer || ridcp": 7.0,
+        "ridcp || maxim": 3.0,
+        "maxim || ridcp": 7.0,
+        "ridcp || diffplugin": 3.0,
+        "diffplugin || ridcp": 10.0,
+        "dehazeformer || maxim": 5.0,
+        "maxim || dehazeformer": 10.0,
+        "dehazeformer || diffplugin": 2.0,
+        "diffplugin || dehazeformer": 15.0,
+        "maxim || diffplugin": 2.0,
+        "diffplugin || maxim": 14.0
+      },
+      "ties": {
+        "ridcp || xrestormer": 6.0,
+        "dehazeformer || xrestormer": 4.0,
+        "maxim || xrestormer": 10.0,
+        "diffplugin || xrestormer": 3.0,
+        "dehazeformer || ridcp": 8.0,
+        "maxim || ridcp": 10.0,
+        "diffplugin || ridcp": 7.0,
+        "dehazeformer || maxim": 5.0,
+        "dehazeformer || diffplugin": 3.0,
+        "diffplugin || maxim": 4.0
+      },
+      "candidates": [
+        "dehazeformer",
+        "diffplugin",
+        "maxim",
+        "ridcp",
+        "xrestormer"
+      ]
+    }
+  },
+  "rain": {
+    "fidelity": {
+      "wins": {
+        "mprnet || maxim": 0.0,
+        "maxim || mprnet": 20.0,
+        "mprnet || xrestormer": 0.0,
+        "xrestormer || mprnet": 19.0,
+        "mprnet || restormer": 1.0,
+        "restormer || mprnet": 18.0,
+        "mprnet || diffplugin": 19.0,
+        "diffplugin || mprnet": 0.0,
+        "maxim || xrestormer": 19.0,
+        "xrestormer || maxim": 0.0,
+        "maxim || restormer": 19.0,
+        "restormer || maxim": 0.0,
+        "maxim || diffplugin": 20.0,
+        "diffplugin || maxim": 0.0,
+        "xrestormer || restormer": 16.0,
+        "restormer || xrestormer": 4.0,
+        "xrestormer || diffplugin": 20.0,
+        "diffplugin || xrestormer": 0.0,
+        "restormer || diffplugin": 20.0,
+        "diffplugin || restormer": 0.0
+      },
+      "ties": {
+        "maxim || mprnet": 0.0,
+        "mprnet || xrestormer": 1.0,
+        "mprnet || restormer": 1.0,
+        "diffplugin || mprnet": 1.0,
+        "maxim || xrestormer": 1.0,
+        "maxim || restormer": 1.0,
+        "diffplugin || maxim": 0.0,
+        "restormer || xrestormer": 0.0,
+        "diffplugin || xrestormer": 0.0,
+        "diffplugin || restormer": 0.0
+      },
+      "candidates": [
+        "diffplugin",
+        "maxim",
+        "mprnet",
+        "restormer",
+        "xrestormer"
+      ]
+    },
+    "perception": {
+      "wins": {
+        "mprnet || maxim": 3.0,
+        "maxim || mprnet": 12.0,
+        "mprnet || xrestormer": 3.0,
+        "xrestormer || mprnet": 8.0,
+        "mprnet || restormer": 4.0,
+        "restormer || mprnet": 10.0,
+        "mprnet || diffplugin": 14.0,
+        "diffplugin || mprnet": 2.0,
+        "maxim || xrestormer": 10.0,
+        "xrestormer || maxim": 5.0,
+        "maxim || restormer": 15.0,
+        "restormer || maxim": 3.0,
+        "maxim || diffplugin": 17.0,
+        "diffplugin || maxim": 0.0,
+        "xrestormer || restormer": 12.0,
+        "restormer || xrestormer": 4.0,
+        "xrestormer || diffplugin": 14.0,
+        "diffplugin || xrestormer": 0.0,
+        "restormer || diffplugin": 15.0,
+        "diffplugin || restormer": 3.0
+      },
+      "ties": {
+        "maxim || mprnet": 5.0,
+        "mprnet || xrestormer": 9.0,
+        "mprnet || restormer": 6.0,
+        "diffplugin || mprnet": 4.0,
+        "maxim || xrestormer": 5.0,
+        "maxim || restormer": 2.0,
+        "diffplugin || maxim": 3.0,
+        "restormer || xrestormer": 4.0,
+        "diffplugin || xrestormer": 6.0,
+        "diffplugin || restormer": 2.0
+      },
+      "candidates": [
+        "diffplugin",
+        "maxim",
+        "mprnet",
+        "restormer",
+        "xrestormer"
+      ]
+    }
+  },
+  "dark": {
+    "fidelity": {
+      "wins": {
+        "histogram_equalization || gamma_correction": 0.0,
+        "gamma_correction || histogram_equalization": 4.0,
+        "histogram_equalization || constant_shift": 1.0,
+        "constant_shift || histogram_equalization": 18.0,
+        "histogram_equalization || fourierdiff": 4.0,
+        "fourierdiff || histogram_equalization": 13.0,
+        "histogram_equalization || maxim": 0.0,
+        "maxim || histogram_equalization": 19.0,
+        "gamma_correction || constant_shift": 1.0,
+        "constant_shift || gamma_correction": 15.0,
+        "gamma_correction || fourierdiff": 4.0,
+        "fourierdiff || gamma_correction": 11.0,
+        "gamma_correction || maxim": 0.0,
+        "maxim || gamma_correction": 19.0,
+        "constant_shift || fourierdiff": 4.0,
+        "fourierdiff || constant_shift": 7.0,
+        "constant_shift || maxim": 0.0,
+        "maxim || constant_shift": 17.0,
+        "fourierdiff || maxim": 0.0,
+        "maxim || fourierdiff": 19.0
+      },
+      "ties": {
+        "gamma_correction || histogram_equalization": 16.0,
+        "constant_shift || histogram_equalization": 1.0,
+        "fourierdiff || histogram_equalization": 3.0,
+        "histogram_equalization || maxim": 1.0,
+        "constant_shift || gamma_correction": 4.0,
+        "fourierdiff || gamma_correction": 5.0,
+        "gamma_correction || maxim": 1.0,
+        "constant_shift || fourierdiff": 9.0,
+        "constant_shift || maxim": 3.0,
+        "fourierdiff || maxim": 1.0
+      },
+      "candidates": [
+        "constant_shift",
+        "fourierdiff",
+        "gamma_correction",
+        "histogram_equalization",
+        "maxim"
+      ]
+    },
+    "perception": {
+      "wins": {
+        "histogram_equalization || gamma_correction": 4.0,
+        "gamma_correction || histogram_equalization": 7.0,
+        "histogram_equalization || constant_shift": 7.0,
+        "constant_shift || histogram_equalization": 6.0,
+        "histogram_equalization || fourierdiff": 7.0,
+        "fourierdiff || histogram_equalization": 3.0,
+        "histogram_equalization || maxim": 5.0,
+        "maxim || histogram_equalization": 7.0,
+        "gamma_correction || constant_shift": 8.0,
+        "constant_shift || gamma_correction": 7.0,
+        "gamma_correction || fourierdiff": 3.0,
+        "fourierdiff || gamma_correction": 11.0,
+        "gamma_correction || maxim": 3.0,
+        "maxim || gamma_correction": 13.0,
+        "constant_shift || fourierdiff": 4.0,
+        "fourierdiff || constant_shift": 10.0,
+        "constant_shift || maxim": 1.0,
+        "maxim || constant_shift": 15.0,
+        "fourierdiff || maxim": 2.0,
+        "maxim || fourierdiff": 12.0
+      },
+      "ties": {
+        "gamma_correction || histogram_equalization": 9.0,
+        "constant_shift || histogram_equalization": 7.0,
+        "fourierdiff || histogram_equalization": 10.0,
+        "histogram_equalization || maxim": 8.0,
+        "constant_shift || gamma_correction": 5.0,
+        "fourierdiff || gamma_correction": 6.0,
+        "gamma_correction || maxim": 4.0,
+        "constant_shift || fourierdiff": 6.0,
+        "constant_shift || maxim": 4.0,
+        "fourierdiff || maxim": 6.0
+      },
+      "candidates": [
+        "constant_shift",
+        "fourierdiff",
+        "gamma_correction",
+        "histogram_equalization",
+        "maxim"
+      ]
+    }
+  },
+  "noise": {
+    "fidelity": {
+      "wins": {
+        "xrestormer || swinir_15": 0.0,
+        "swinir_15 || xrestormer": 20.0,
+        "xrestormer || swinir_50": 6.0,
+        "swinir_50 || xrestormer": 1.0,
+        "xrestormer || mprnet": 0.0,
+        "mprnet || xrestormer": 20.0,
+        "xrestormer || maxim": 0.0,
+        "maxim || xrestormer": 13.0,
+        "xrestormer || restormer": 1.0,
+        "restormer || xrestormer": 19.0,
+        "swinir_15 || swinir_50": 16.0,
+        "swinir_50 || swinir_15": 0.0,
+        "swinir_15 || mprnet": 0.0,
+        "mprnet || swinir_15": 19.0,
+        "swinir_15 || maxim": 11.0,
+        "maxim || swinir_15": 4.0,
+        "swinir_15 || restormer": 2.0,
+        "restormer || swinir_15": 17.0,
+        "swinir_50 || mprnet": 0.0,
+        "mprnet || swinir_50": 20.0,
+        "swinir_50 || maxim": 1.0,
+        "maxim || swinir_50": 8.0,
+        "swinir_50 || restormer": 1.0,
+        "restormer || swinir_50": 19.0,
+        "mprnet || maxim": 16.0,
+        "maxim || mprnet": 0.0,
+        "mprnet || restormer": 4.0,
+        "restormer || mprnet": 6.0,
+        "maxim || restormer": 0.0,
+        "restormer || maxim": 19.0
+      },
+      "ties": {
+        "swinir_15 || xrestormer": 0.0,
+        "swinir_50 || xrestormer": 13.0,
+        "mprnet || xrestormer": 0.0,
+        "maxim || xrestormer": 7.0,
+        "restormer || xrestormer": 0.0,
+        "swinir_15 || swinir_50": 4.0,
+        "mprnet || swinir_15": 1.0,
+        "maxim || swinir_15": 5.0,
+        "restormer || swinir_15": 1.0,
+        "mprnet || swinir_50": 0.0,
+        "maxim || swinir_50": 11.0,
+        "restormer || swinir_50": 0.0,
+        "maxim || mprnet": 4.0,
+        "mprnet || restormer": 10.0,
+        "maxim || restormer": 1.0
+      },
+      "candidates": [
+        "maxim",
+        "mprnet",
+        "restormer",
+        "swinir_15",
+        "swinir_50",
+        "xrestormer"
+      ]
+    },
+    "perception": {
+      "wins": {
+        "xrestormer || swinir_15": 9.0,
+        "swinir_15 || xrestormer": 2.0,
+        "xrestormer || swinir_50": 5.0,
+        "swinir_50 || xrestormer": 5.0,
+        "xrestormer || mprnet": 12.0,
+        "mprnet || xrestormer": 2.0,
+        "xrestormer || maxim": 15.0,
+        "maxim || xrestormer": 3.0,
+        "xrestormer || restormer": 11.0,
+        "restormer || xrestormer": 2.0,
+        "swinir_15 || swinir_50": 7.0,
+        "swinir_50 || swinir_15": 4.0,
+        "swinir_15 || mprnet": 18.0,
+        "mprnet || swinir_15": 0.0,
+        "swinir_15 || maxim": 18.0,
+        "maxim || swinir_15": 0.0,
+        "swinir_15 || restormer": 16.0,
+        "restormer || swinir_15": 0.0,
+        "swinir_50 || mprnet": 12.0,
+        "mprnet || swinir_50": 1.0,
+        "swinir_50 || maxim": 15.0,
+        "maxim || swinir_50": 1.0,
+        "swinir_50 || restormer": 12.0,
+        "restormer || swinir_50": 1.0,
+        "mprnet || maxim": 6.0,
+        "maxim || mprnet": 7.0,
+        "mprnet || restormer": 5.0,
+        "restormer || mprnet": 5.0,
+        "maxim || restormer": 3.0,
+        "restormer || maxim": 10.0
+      },
+      "ties": {
+        "swinir_15 || xrestormer": 9.0,
+        "swinir_50 || xrestormer": 10.0,
+        "mprnet || xrestormer": 6.0,
+        "maxim || xrestormer": 2.0,
+        "restormer || xrestormer": 7.0,
+        "swinir_15 || swinir_50": 9.0,
+        "mprnet || swinir_15": 2.0,
+        "maxim || swinir_15": 2.0,
+        "restormer || swinir_15": 4.0,
+        "mprnet || swinir_50": 7.0,
+        "maxim || swinir_50": 4.0,
+        "restormer || swinir_50": 7.0,
+        "maxim || mprnet": 7.0,
+        "mprnet || restormer": 10.0,
+        "maxim || restormer": 7.0
+      },
+      "candidates": [
+        "maxim",
+        "mprnet",
+        "restormer",
+        "swinir_15",
+        "swinir_50",
+        "xrestormer"
+      ]
+    }
+  },
+  "jpeg compression artifact+motion blur": {
+    "fidelity": {
+      "wins": {
+        "jpeg compression artifact removal -> motion deblurring || motion deblurring -> jpeg compression artifact removal": 12.0,
+        "motion deblurring -> jpeg compression artifact removal || jpeg compression artifact removal -> motion deblurring": 0.0
+      },
+      "ties": {
+        "jpeg compression artifact removal -> motion deblurring || motion deblurring -> jpeg compression artifact removal": 8.0
+      },
+      "candidates": [
+        "jpeg compression artifact removal -> motion deblurring",
+        "motion deblurring -> jpeg compression artifact removal"
+      ]
+    },
+    "perception": {
+      "wins": {
+        "jpeg compression artifact removal -> motion deblurring || motion deblurring -> jpeg compression artifact removal": 0.0,
+        "motion deblurring -> jpeg compression artifact removal || jpeg compression artifact removal -> motion deblurring": 20.0
+      },
+      "ties": {
+        "jpeg compression artifact removal -> motion deblurring || motion deblurring -> jpeg compression artifact removal": 0.0
+      },
+      "candidates": [
+        "jpeg compression artifact removal -> motion deblurring",
+        "motion deblurring -> jpeg compression artifact removal"
+      ]
+    }
+  },
+  "haze+rain": {
+    "fidelity": {
+      "wins": {
+        "dehazing -> deraining || deraining -> dehazing": 0.0,
+        "deraining -> dehazing || dehazing -> deraining": 20.0
+      },
+      "ties": {
+        "dehazing -> deraining || deraining -> dehazing": 0.0
+      },
+      "candidates": [
+        "dehazing -> deraining",
+        "deraining -> dehazing"
+      ]
+    },
+    "perception": {
+      "wins": {
+        "dehazing -> deraining || deraining -> dehazing": 1.0,
+        "deraining -> dehazing || dehazing -> deraining": 16.0
+      },
+      "ties": {
+        "dehazing -> deraining || deraining -> dehazing": 3.0
+      },
+      "candidates": [
+        "dehazing -> deraining",
+        "deraining -> dehazing"
+      ]
+    }
+  },
+  "dark+noise": {
+    "fidelity": {
+      "wins": {
+        "brightening -> denoising || denoising -> brightening": 15.0,
+        "denoising -> brightening || brightening -> denoising": 1.0
+      },
+      "ties": {
+        "brightening -> denoising || denoising -> brightening": 4.0
+      },
+      "candidates": [
+        "brightening -> denoising",
+        "denoising -> brightening"
+      ]
+    },
+    "perception": {
+      "wins": {
+        "brightening -> denoising || denoising -> brightening": 15.0,
+        "denoising -> brightening || brightening -> denoising": 1.0
+      },
+      "ties": {
+        "brightening -> denoising || denoising -> brightening": 4.0
+      },
+      "candidates": [
+        "brightening -> denoising",
+        "denoising -> brightening"
+      ]
+    }
+  }
+}
