@@ -1,0 +1,15 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "dark",
+    "dimension": "fidelity",
+    "degradation_pattern": ".",
+    "ranking": {
+      "maxim": 1,
+      "constant_shift": 2,
+      "fourierdiff": 3,
+      "gamma_correction": 4,
+      "histogram_equalization": 5
+    }
+  }
+]

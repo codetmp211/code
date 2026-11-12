@@ -1,0 +1,15 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "haze",
+    "dimension": "perception",
+    "degradation_pattern": ".",
+    "ranking": {
+      "diffplugin": 1,
+      "maxim": 2,
+      "dehazeformer": 3,
+      "ridcp": 4,
+      "xrestormer": 5
+    }
+  }
+]

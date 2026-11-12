@@ -1,0 +1,15 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "rain",
+    "dimension": "fidelity",
+    "degradation_pattern": ".",
+    "ranking": {
+      "maxim": 1,
+      "xrestormer": 2,
+      "restormer": 3,
+      "mprnet": 4,
+      "diffplugin": 5
+    }
+  }
+]

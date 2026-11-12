@@ -1,0 +1,16 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "noise",
+    "dimension": "perception",
+    "degradation_pattern": ".",
+    "ranking": {
+      "swinir_15": 1,
+      "xrestormer": 2,
+      "swinir_50": 3,
+      "restormer": 4,
+      "mprnet": 5,
+      "maxim": 6
+    }
+  }
+]

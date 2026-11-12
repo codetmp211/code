@@ -1,0 +1,16 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "noise",
+    "dimension": "fidelity",
+    "degradation_pattern": ".",
+    "ranking": {
+      "mprnet": 1,
+      "restormer": 2,
+      "swinir_15": 3,
+      "maxim": 4,
+      "xrestormer": 5,
+      "swinir_50": 6
+    }
+  }
+]

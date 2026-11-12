@@ -1,0 +1,12 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "jpeg compression artifact+motion blur",
+    "dimension": "fidelity",
+    "degradation_pattern": ".",
+    "ranking": {
+      "jpeg compression artifact removal -> motion deblurring": 1,
+      "motion deblurring -> jpeg compression artifact removal": 2
+    }
+  }
+]

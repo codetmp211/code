@@ -1,0 +1,16 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "motion blur",
+    "dimension": "perception",
+    "degradation_pattern": ".",
+    "ranking": {
+      "mprnet": 1,
+      "xrestormer": 2,
+      "restormer": 3,
+      "maxim": 4,
+      "EVSSM": 5,
+      "nafnet": 6
+    }
+  }
+]

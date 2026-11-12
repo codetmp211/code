@@ -1,0 +1,14 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "jpeg compression artifact",
+    "dimension": "fidelity",
+    "degradation_pattern": ".",
+    "ranking": {
+      "fbcnn_90": 1,
+      "fbcnn_blind": 2,
+      "swinir_40": 3,
+      "fbcnn_5": 4
+    }
+  }
+]

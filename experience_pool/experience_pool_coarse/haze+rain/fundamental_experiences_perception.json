@@ -1,0 +1,12 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "haze+rain",
+    "dimension": "perception",
+    "degradation_pattern": ".",
+    "ranking": {
+      "deraining -> dehazing": 1,
+      "dehazing -> deraining": 2
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "exp_id": 0,
+    "degradation_type": "dark+noise",
+    "dimension": "fidelity",
+    "degradation_pattern": ".",
+    "ranking": {
+      "brightening -> denoising": 1,
+      "denoising -> brightening": 2
+    }
+  }
+]
